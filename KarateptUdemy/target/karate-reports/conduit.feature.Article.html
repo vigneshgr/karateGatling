@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="res/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="res/karate-report.css" type="text/css"/>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <script type="text/javascript" src="res/jquery.min.js"></script>
+    <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="res/bootstrap.min.js"></script>
+    <script type="text/javascript" src="res/karate-report.js"></script>
+    <title>conduit.feature.Article</title>  
+  </head>
+  <body>   
+    <div id="root-container">
+      <div id="leftnav">
+                
+        <div>
+  <div class="nav-logo">
+    <a href="karate-summary.html">
+      <img src="karate-logo.svg" alt="Karate"/>
+    </a>
+    <div class="nav-count">
+      <div id="nav-pass" class="bg-success">2</div>
+      <div id="nav-fail" class="bg-danger">0</div>
+    </div>
+  </div>
+  <div id="nav-type">
+    <div>Scenarios</div>
+  </div>         
+  <div id="nav-date">
+    <div>2021-03-23 11:18:40 PM</div>
+  </div>        
+</div>
+
+        <div class="nav-container">
+          <div class="nav-item passed">
+            <a href="#[1:26]"><span>[1:26]</span> <span>article creation</span></a>
+          </div>
+          <div class="nav-item passed">
+            <a href="#[2:36]"><span>[2:36]</span> <span>Create amd delete article</span></a>
+          </div>
+        </div>
+      </div>
+      <div id="content">
+        <div class="page-heading alert alert-primary">
+          <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
+          <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
+          <span class="feature-label">Feature:</span>
+          <span class="feature-path">conduit/feature/Article.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">Test the articles</span>
+          <span class="feature-description"></span>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[1:26]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[1:26]</span>
+                <span class="scenario-name">article creation</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>1005</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[1:26]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">23:18:35.883 &lt;&lt; lock released, cached callSingle: classpath:helpers/CreateToken.feature
+</div>   
+
+  <div>
+        
+    <div class="step-row">
+      <div class="step-container" id="0.4.0.call">
+        <div class="step-ref bg-step">&gt;&gt;</div>
+        <div class="step-indent"></div>
+        <div class="step-cell passed">helpers.CreateToken</div>
+      </div>
+      <div class="time-cell passed">1371</div>
+    </div>
+    <div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.5">
+      <div class="step-ref bg-step">5</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>url &#39;https://conduit.productionready.io/api/&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.5">23:18:34.428 karate.env system property was: null 
+23:18:34.447 &gt;&gt; lock acquired, begin callSingle: classpath:helpers/CreateToken.feature
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.6">
+      <div class="step-ref bg-step">6</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;users/login&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">7</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.7">
+      <div class="step-ref bg-step">7</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request {&quot;user&quot;: {&quot;email&quot;: &quot;#(userEmail)&quot;,&quot;password&quot;: &quot;#(userPassword)&quot;}}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">43</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.8">
+      <div class="step-ref bg-step">8</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1312</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4.0.call.0.8">23:18:35.102 request:
+1 &gt; POST https://conduit.productionready.io/api/users/login
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 60
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;user&quot;:{&quot;password&quot;:&quot;karate123&quot;,&quot;email&quot;:&quot;karate1@gmai.com&quot;}}
+
+23:18:35.860 response time in milliseconds: 752
+1 &lt; 200
+1 &lt; Date: Wed, 24 Mar 2021 03:18:35 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Set-Cookie: __cfduid=df053ebcaacda0e54da97e64a9fb857a91616555915; expires=Fri, 23-Apr-21 03:18:35 GMT; path=/; domain=.productionready.io; HttpOnly; SameSite=Lax
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; ETag: W/&quot;6d9242b9d726b10686fc052cd698e827&quot;
+1 &lt; Status: 200 OK
+1 &lt; Vary: Origin
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Powered-By: Phusion Passenger 4.0.60
+1 &lt; X-Request-Id: 8a642bb2-2da7-4288-b480-b85d85f0150a
+1 &lt; X-Runtime: 0.081681
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; cf-request-id: 0903d6cf010000158f801cc000000001
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=fceOkWBrrRNa1LbCobKp%2BphTok%2B0ZjsCaq1L1ltTSseTU6TvrMqVdNG%2FkC0MaoepLjD%2F%2B9g8kE2pEjCPHrpzHei43yfF0Qt9dPCyDmcgF%2BicLOgLolD9KYe6Jw%3D%3D&quot;}]}
+1 &lt; NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 634cc0c4cae7158f-EWR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;user&quot;:{&quot;createdAt&quot;:&quot;2021-03-19T02:52:23.787Z&quot;,&quot;image&quot;:null,&quot;bio&quot;:null,&quot;id&quot;:150978,&quot;email&quot;:&quot;karate1@gmai.com&quot;,&quot;updatedAt&quot;:&quot;2021-03-19T02:52:23.793Z&quot;,&quot;username&quot;:&quot;karate98&quot;,&quot;token&quot;:&quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUwOTc4LCJ1c2VybmFtZSI6ImthcmF0ZTk4IiwiZXhwIjoxNjIxNzM5OTE1fQ.qFcWPrao6NH8gGRgZJ4GR5ALo2ozMOwpXzqoFh0neas&quot;}}
+</div>   
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.9">
+      <div class="step-ref bg-step">9</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+      <div><div>
+  
+
+  
+
+  <div class="step-row" data-parent="0.4.0.call">
+    <div class="step-container" id="0.4.0.call.0.10">
+      <div class="step-ref bg-step">10</div>
+      <div class="step-indent"></div>
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def authToken = response.user.token</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+    </div>    
+  </div>
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def articleRequestBody = read (&#39;classpath:conduit/json/newArticle.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">11</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">12</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &quot;viki debug&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">23:18:35.917 [print] viki debug 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print dataGenerator.getRandomArticleValues().title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">251</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">23:18:36.167 [print] null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print dataGenerator.getRandomArticleValues().description</span>
+      </div>
+    </div>
+    <div class="time-cell passed">66</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">23:18:36.235 [print] null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* set articleRequestBody.article.title = dataGenerator.getRandomArticleValues().title</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* set articleRequestBody.article.description =  dataGenerator.getRandomArticleValues().description</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* set articleRequestBody.article.body =  dataGenerator.getRandomArticleValues().body</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.title = dataGenerator.getRandomUserName()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">61</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.description =  dataGenerator.getRandomUserName()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">45</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[1:26]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.body =  dataGenerator.getRandomUserName()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">44</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given header Authorization =  &#39;Token &#39; + token --Added to the config</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.29">
+      <div class="step-ref passed">29</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.30">
+      <div class="step-ref passed">30</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>request articleRequestBody</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.31">
+      <div class="step-ref passed">31</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">477</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.31">23:18:36.390 request:
+1 &gt; POST https://conduit.productionready.io/api/articles
+1 &gt; Authorization: Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUwOTc4LCJ1c2VybmFtZSI6ImthcmF0ZTk4IiwiZXhwIjoxNjIxNzM5OTE1fQ.qFcWPrao6NH8gGRgZJ4GR5ALo2ozMOwpXzqoFh0neas
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 103
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;description&quot;:&quot;johnny.schumm&quot;,&quot;title&quot;:&quot;dinorah.heaney&quot;,&quot;body&quot;:&quot;tamela.walsh&quot;}}
+
+23:18:36.857 response time in milliseconds: 467
+1 &lt; 200
+1 &lt; Date: Wed, 24 Mar 2021 03:18:36 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Set-Cookie: __cfduid=df4fad72acd7fe523c16ce3b1e67456141616555916; expires=Fri, 23-Apr-21 03:18:36 GMT; path=/; domain=.productionready.io; HttpOnly; SameSite=Lax
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; ETag: W/&quot;7f9d11c56eebb2f096c5c0c8b5aa7bd5&quot;
+1 &lt; Status: 200 OK
+1 &lt; Vary: Origin
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Powered-By: Phusion Passenger 4.0.60
+1 &lt; X-Request-Id: 8c2e1725-cfff-4fed-93c2-fbbdc503ed35
+1 &lt; X-Runtime: 0.067357
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; cf-request-id: 0903d6d37e0000e710d605b000000001
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;group&quot;:&quot;cf-nel&quot;,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=HowR7uKCmQ2t7Zt%2BZbFnRunxB2aZ2rl82fxka8o%2BovhvOIQ2PAITZnwm6piYqa%2BxIWAA0%2F2mL6k4QIQP4Qbpp7ErUhhJEHhQh81Y2yxBPmSK5xF6LWi4uk7mHA%3D%3D&quot;}],&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;report_to&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 634cc0cbf944e710-EWR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;article&quot;:{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:18:36.365Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;johnny.schumm&quot;,&quot;title&quot;:&quot;dinorah.heaney&quot;,&quot;body&quot;:&quot;tamela.walsh&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;dinorah-heaney-b0x8e&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:18:36.365Z&quot;,&quot;favorited&quot;:false}}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.32">
+      <div class="step-ref passed">32</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.33">
+      <div class="step-ref passed">33</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.article.description == articleRequestBody.article.description</span>
+      </div>
+    </div>
+    <div class="time-cell passed">37</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+        <div class="scenario">
+          <div class="scenario-heading" id="[2:36]">
+            <div class="heading-container">
+              <div class="scenario-tags">
+                
+              </div>
+              <div class="scenario-keyword">
+                Scenario: <span>[2:36]</span>
+                <span class="scenario-name">Create amd delete article</span>
+                <span></span>
+              </div>
+            </div>
+            <div class="scenario-time passed">
+              <span>ms:</span>&nbsp;<span>3569</span>
+            </div>
+          </div>
+          <div class="step-row">
+            <div class="step-container" id="[2:36]bg">
+              <div class="step-ref bg-step">&gt;&gt;</div>
+              <div class="step-cell passed">Background:</div>
+            </div>
+            <div class="time-cell passed"></div>
+          </div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.4">
+      <div class="step-ref bg-step">4</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>url apiUrl</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.4">23:18:36.983 karate.env system property was: null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.5">
+      <div class="step-ref bg-step">5</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def articleRequestBody = read (&#39;classpath:conduit/json/newArticle.json&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.6">
+      <div class="step-ref bg-step">6</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def dataGenerator = Java.type(&#39;helpers.DataGenerator&#39;)</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.7">
+      <div class="step-ref bg-step">7</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print &quot;viki debug&quot;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.7">23:18:36.994 [print] viki debug 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.8">
+      <div class="step-ref bg-step">8</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print dataGenerator.getRandomArticleValues().title</span>
+      </div>
+    </div>
+    <div class="time-cell passed">63</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.8">23:18:37.059 [print] null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.9">
+      <div class="step-ref bg-step">9</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>print dataGenerator.getRandomArticleValues().description</span>
+      </div>
+    </div>
+    <div class="time-cell passed">34</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.9">23:18:37.093 [print] null 
+</div>   
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* set articleRequestBody.article.title = dataGenerator.getRandomArticleValues().title</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* set articleRequestBody.article.description =  dataGenerator.getRandomArticleValues().description</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment">#* set articleRequestBody.article.body =  dataGenerator.getRandomArticleValues().body</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.13">
+      <div class="step-ref bg-step">13</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.title = dataGenerator.getRandomUserName()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">72</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.14">
+      <div class="step-ref bg-step">14</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.description =  dataGenerator.getRandomUserName()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">27</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div data-parent="[2:36]bg"><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.15">
+      <div class="step-ref bg-step">15</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>set articleRequestBody.article.body =  dataGenerator.getRandomUserName()</span>
+      </div>
+    </div>
+    <div class="time-cell passed">29</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.37">
+      <div class="step-ref passed">37</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>params { limit: 10, offset: 0 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.38">
+      <div class="step-ref passed">38</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.39">
+      <div class="step-ref passed">39</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1903</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.39">23:18:37.248 request:
+1 &gt; GET https://conduit.productionready.io/api/articles?offset=0&amp;limit=10
+1 &gt; Authorization: Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUwOTc4LCJ1c2VybmFtZSI6ImthcmF0ZTk4IiwiZXhwIjoxNjIxNzM5OTE1fQ.qFcWPrao6NH8gGRgZJ4GR5ALo2ozMOwpXzqoFh0neas
+1 &gt; Host: conduit.productionready.io
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+1 &gt; Accept-Encoding: gzip,deflate
+
+
+23:18:39.124 response time in milliseconds: 1867
+1 &lt; 200
+1 &lt; Date: Wed, 24 Mar 2021 03:18:38 GMT
+1 &lt; Content-Type: application/json; charset=utf-8
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Connection: keep-alive
+1 &lt; Set-Cookie: __cfduid=d0b354901bd24e388a4aed35abf1c826c1616555917; expires=Fri, 23-Apr-21 03:18:37 GMT; path=/; domain=.productionready.io; HttpOnly; SameSite=Lax
+1 &lt; Cache-Control: max-age=0, private, must-revalidate
+1 &lt; ETag: W/&quot;90efc494dfd9e327d1f9b4074cab4eac&quot;
+1 &lt; Status: 200 OK
+1 &lt; Vary: Origin
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-Frame-Options: SAMEORIGIN
+1 &lt; X-Powered-By: Phusion Passenger 4.0.60
+1 &lt; X-Request-Id: 6cca8c47-0578-44dc-bb45-8e9113e3d98d
+1 &lt; X-Runtime: 1.527321
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; CF-Cache-Status: DYNAMIC
+1 &lt; cf-request-id: 0903d6d6c50000554d34231000000001
+1 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+1 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=j0C%2BP8ZRaHZVhkoiNrINVNaaDCnQG3V4cbPs3TzoVa5zPRstZBA%2BVUMfnDHXpacKUE5%2BauexNx94Hcu336kTLPMp8k28zr2boOiGndyerDsb3negrdqd4wwh1g%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+1 &lt; NEL: {&quot;max_age&quot;:604800,&quot;report_to&quot;:&quot;cf-nel&quot;}
+1 &lt; Server: cloudflare
+1 &lt; CF-RAY: 634cc0d13bc3554d-EWR
+1 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articlesCount&quot;:500,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:18:36.365Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;johnny.schumm&quot;,&quot;title&quot;:&quot;dinorah.heaney&quot;,&quot;body&quot;:&quot;tamela.walsh&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;dinorah-heaney-b0x8e&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:18:36.365Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:15:30.878Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;tessa.oreilly&quot;,&quot;title&quot;:&quot;sandy.reichel&quot;,&quot;body&quot;:&quot;mireille.mcclure&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;sandy-reichel-zg1ags&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:15:30.878Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:10:02.334Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;damien.barrows&quot;,&quot;title&quot;:&quot;maude.romaguera&quot;,&quot;body&quot;:&quot;jung.ankunding&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;maude-romaguera-sxoaod&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:10:02.334Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:06:00.133Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;fredrick.oreilly&quot;,&quot;title&quot;:&quot;sena.lemke&quot;,&quot;body&quot;:&quot;lane.west&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;sena-lemke-ae122z&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:06:00.133Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:05:38.088Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;wen.stanton&quot;,&quot;title&quot;:&quot;elke.nolan&quot;,&quot;body&quot;:&quot;addie.prosacco&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;elke-nolan-mxsjgt&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:05:38.088Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[&quot;hdhdnndn&quot;,&quot;twtrer&quot;,&quot;twggs&quot;],&quot;createdAt&quot;:&quot;2021-03-24T03:04:36.935Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAoHCBYWFRgWFRUZGRgaHBweGhocHB4aHhweHBwaHBocHB8cIS4lHB4sIRoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrISU0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP\/AABEIAMIBAwMBIgACEQEDEQH\/xAAcAAACAwEBAQEAAAAAAAAAAAAEBQIDBgABBwj\/xAA+EAACAQIEBAQDBgMHBAMAAAABAhEAAwQSITEFQVFhBiJxgRMykRRCobHB8FLR4RUjYnKCkqIHFiTxM0NT\/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF\/8QAIxEAAgIDAQEAAgMBAQAAAAAAAAECEQMhMRJBIlEEE2FxMv\/aAAwDAQACEQMRAD8A2+AvhkjrWS8b8HzoXA8yz9KYcExWwmtBibIdDzrVq0Ph+e71ul+IUgzWw8VcMNm6wjynUVmcTbkVjVFE8LjCCJ571q+CYzQoeeorCA6e9OuH4qPWlwB\/exmV4PWjvt2kTp3pThpcTuRV1q6DKstFsC66SGDA07wF8gCl2EZAMrVNL+QxOlDA01w5lzCs9xfCcwKcYW+CBU8VZDAjt+NJaEzL4Z9CJ6\/v86X3rY1+tF4pCjxG9M+GeFb99gRbcIYlyOR5gEjNyrVNENGWuqN\/Sj7OJmNe4re4b\/pmuRRcv665gF09N5q0\/wDTO2MuXEsImZUGZ256U\/SCjCmZBolH0\/CtZiPAF0DyXEf1ldOXWkmN4Hes\/PbaOwkH6VUZJiaEmOudDrRuBTOuvTT2pfj1k9P3tVvDL8eWaiXRouxele4O9yiqMfekxUVeIIpxExljyctecMcggzrzrmuBhtr+lC3gUIIqZqykbWzdGWoYuMtKOF4oka01e2StcteZG2mgLh0ZqY4i2CRSjC3ArQTzoy5ifNqack7saqjR4dQEFLXfU+tRTiICb0kGNclso51zwxybYOSNLhsQJHYVdjL0iKx1vEtJBNN7eN8mu4qnhadouE0A4lfMfWupddxhJNdW9MLRbw3ElSAa23C8UGEGsDcEGetOuEcQiO1dnDm6gnxzwf4lokDzLqK+Q3l5c6+\/3LgdDz0\/Svj\/AIs4Z8O5mA8rGokvoRfwx19YNe2XysKMvW5ojgvhu9imf4WQBIzM7BAM0xvvsakdBWAxUa8juKZNYmHVjHOm\/AfAOWftOJtpqD5HDyOa6xlPfX0rSP4XwCmExTheaeVvo0SPxqf8HaMNezDUNNHIucbaxrW5tcA4aBrnfWZLmT20IoyxhMChJSwNRBzGR7STFFE+kjC4O7AAPKnnDka6QqCT+9TT2++DJlsNb19AfXSr8NjrNhSLaRuQJB\/E61X9UnxEvLBdYVw3gqW5a6EZjBiASCO5phd4hGi6elZY8XLeYtvXgx4y5mOnT98q0jhSMpZ74PbvEDuNPWqkxzNWYbj9vNBMdzP5mibWKmCGkcq6IwitGEssmaS3j2GlF2uIg6PH0rLNeidaoHEW+4pPem8MXtAs0lRpcfwLDYhWBQSxnpr1kbHSsd4i8M3cyFFBC+VVVVUKvLXdjM704w\/F2EBgV700\/tMlQdJ671jLA70brNGtmCfwRinIhVWPvFtI9qcYD\/p65Q\/FvKH+6F1HvOpphjvEARiGfXpM\/gKD\/wC4Gb5EdvaPzrNqMevZcXKW0nQXa8CW1PmxProP50Z\/21gVHncsesx+VJvtV9zqAn41VewbES7s3bYVDa+bKqS\/Q9TC8OtmRqRykwaofEYfK2XMxMxGgXpvvS23wxEXO403I\/LeluJ4pLGAFUbDpUSVrhUWxdxF4cxULFx3NVXruZ60PDMMmhG9KUlGNlJNsGHDnaI50fZ4YUQTuN6bIoUirjdUK01yf3yb0aeNGb+w5nnlFEcQs5U06VC5jlDb0r4jxifLXRFt9J0kBfCrqYWiCBtXla0RYJc1Ee4rxHKkEVRaua5elE4cjVTWz2C0zScIxUiJ0NU+IeEfEskR5hJWlGCxGR8vfStOMUHSR9KQ2vp8Zv2yrFTuNKrwmLay4dRI+8h0DDp6961HjPh2VviqNDvWUdZrNoDf8GxWGxYyoclyNUbf1U\/eHpTJOCoNGXWvkaOyMHQlWBkEaEHtX1Pwr4yt4hVtYghLw0DHRX7g8m7UmrHF0X3uAAaozD3NCXuHOP8A7mrXvhpGhpRjLJrBxkjdOD+IyGJN1DpcYnvTHBcZZhkcQw0mvWwuZ2MbVBuBXXGZAMw2WYJq8U5qVInPhxyhb0WJipQHodPaquNcYWyoLAsx1A6yefaluHzqxS4pRgdVbT09R3ozi3DhiEWTlI2aJjnt0ruUm0eY4xUlfAXh3iS65ObDBkgyVB2G8E6E064e6EB7LSjbRrB6EHasynhfExlS+Anq4338tPeC8E+zKwLli2p5D2HWqxqV7DI4Vpj93GUGSZ\/YpfxTjPwh8Kzla7EwxCqg\/iafyonD3nIy\/D25yI7\/ANBS\/iXhSzeLPmdXYySDz9DXRKMvP4mMHFS2Kb\/H7qXlVnFwMFzAZSATyXKNK2TXWW2es6e\/9aRcI8JW7Jzks7AyuYAKCNjA3NaBtTBMzpWLU1FnR+MpR\/X0F4bhFMlhLHUk608tYURoBUG4c4ysimRE+lGJbcD5TXDDG3bl07smSK\/GHCC21G9efDDEaaVNxlkt5R30rO8V8SqAUtGW2Lch6dTXRGKijkcnJ0d4h4gC2RTou\/rSF1DCOdQttJ1Ya61e9wbDWs5O2bRjSE95shgmnXC+IERrS3HYYtrFK7bsrEdKylH0qGnTN6\/FBA1oDG8X8pg1mPt7bVH4rHfWoWKKG5thP2wk1B968spJqd22Yq+AEWsZAFdS74ddTsVBaP55o5DrNL2EPrsaY4YSDHIVopA0Tua+Yb0Zw7HFW12jWgkOlDO+U0NjQ+x2HW8jL12r5nfsFHZGGxr6LgroyikXjHh0gXkGv3qT2Bjb6UA+lNDrQeKtVImPOB+LcTYAUXCyfwv5h7E6it1hONPdwxxDoioXyKATLMBLEdhpXx4V9D4JcD4CwpPyXro\/3ZG\/Wm0CZqOG8RtkGQJ515xG+U8yfvnWbxuFfNNpSew51dwziZZhZdWznQKQZn0qloUm30fDH2cSgW8gzDZtmX0IqJ4c6CbTq6\/wt5W\/kaB4lwK9bX4ijTmAdRTHDcRt2bRN1grRrmM6nbKBtHP0rSLf0ylFCrE8TvJp8Bvpp9djSx+IYqZ+GQO\/9Kv4x4jxSk\/BtZ7f3XX+8Vh\/p29DSN\/EWKJkyp\/yZfwiq9tfSFjT+D21xi+F1y+mQ6f8hVQ4riCQRlb\/ACgyPVTqKQ\/2\/iRzJ9VB\/SjMBxbFMT\/4a3A2hm2V\/wCYgD1prK\/2H9K\/Ro+FcRv3nyKsnn29ela\/BcOVGDu5Zhy2AP60n4C9u1ZVEyLcibiBxcZWPJ3XQntypmlwse1P22ulKCix19sFROKnnSlsQBz9qpfiKJqWA96zbLqwrxExbDXeyGvm+EtZl6mt\/a4oj27oYymR5nTYGsBw25B1NRJ2giqYVZswdY96KvXhH9KpxQ1kD0qKmeY16VmahVi6CsRS2\/gGmasDFSBrrzp5gHDATFJsdWjL2OGXHJVEJp5gPDd8RmT8a2PBMKqyQKehK48\/8mUL8o1jhj9MKfDLrLH6Ck+MwvnCivo+OcBSe1fPRfzXT01qP4\/8iWRNsrJjiqo8\/ss11NfijrXV0+mZ+TFm\/nTuIprhrmWG+6RWbw94xFM8HiwAbbfK2x6HlV+vyMnwLN\/zada9KEyelT4fgNweWs9aKxCgLpvVXYkynBXDtTNFDoUbYiKRYd9SOYpxhbnOqiWYXimDNq4VO3KgrqSK23irAfEt51HmX8qxNt6YhbfSDWt8IL8Wzcsj5ldbg7hgUIHvk+tZ\/E25FaTwFhWRL+J1AXLbQ8izyzD1CgH3FMXD6Fa4alu2vxHykDlvQx4zZtt5EzPy0zP+G1ZfFYi5cuomfykEv1gcgeUzTbE8S+zWHdIXKsLG5Y6KCdzVohsKfxS6uPiWmCjVgRGnKRuOVL+M8cwpb4htIWynRyTHYCYg6iIrJ4W1duAPecgHUgaFj1Y86OF6wAM6KXXTUTI5Gq2kZOpS0ZlcQc5dRkzEmFlQJMgCOWulH2uKXRtdcf62\/nQvF8b8W+zjbygDbRVAGntVQurWDs6Y8GrcWvGZuuf9RqD3nceZ2I7sT+dAfHXrUxiBtNJtlKjY+A8KXuOiso0Xc+vStXiMSUOSCX2gbk\/yrHeC8HiWuZ7XkQiHc9OYHetZbZ7bufhu4B1uBcx9I3IrXGnRhOSvQLe4Pi7pnOiA8oJPua9TwpdGrutxu8gU6tcbtGMxyno0qfoac4a8jjysDVNISbPnXHWuWLLLcGV7jZQB8oQanXaSYrOWbsazFfZOLcGTE2zauA5T8rA6qwHlYe\/Kvi4XIxVtwSD6gwfyqJKik76O8Mc66masFsLzAoPC38vOjHcHbaoLQPiXBMDeiMBeCka+tBMmszFTkAik1aKTPpXAXlZp4TpWV4Bd8g1p8LpIrz8kG2zsXEZTxTx9UZrfONawrY7WQau8dKy4gk86zYuzXThxRhGkc85Nsff2k\/WupF8Q9a6tfKIth1u0YzDccquddiOcUebYAnSKGW3MjqNKiSMzS4Fs6L15HrG9B46\/54FR4dxAhMhEMrSPQiDQT3IbN3ocqjoV7PbNtg7N60TgMUQ2RvapJeUT3rx01zHlVqWg9OxqnmBU7HSsBxnBGzeI5EyK3GGxAJkUD4jwYvJmA8y\/WtFstMxziRW7xGH+z4axhgYKp8W53e6A0f6VyL9aw+AEsqt\/EAfrBrS+LcdcDuxgkk8+hj8IoEynhWIBvPJ+VQB7kzVnH7hfJaQFho7mDE8hWNw+LdWz6wdD3o846dcx+pFVdEtWjS\/CIUaR66fnSXGr1cdo1oe0zOdAzfl9a7EIE0OrnlyFDnZMcaiLAktp1rx7ZBopcIykE6A0T9lbbf1qLNKFRnmAK9tqJkmiuI4ZhuIgVW2DIXbWJpgbHhXiq95EthERABtObrW2wxS6ufMyP\/EjEfUbH3FfGMKzIVYcwfwrVcF486jKontp+E1pCVdOfLBtXHptn409lgmLVLtltBcyiV\/zjUEdxReM4aqobuEIUxmCA+Ruw18vtWbxOOuPbIayxBHSf1pNwTxTcwbZHRmsk6qZlZ\/h\/lTk18DE5VUj6N4c8RfEQFxB2Zen7NYzx5wg2sT8RNbd7zrGwbTOp9\/N71bi8RaDJiMM4a1dYhgN0eJgjvr9K0N8DE4J7Zgugz2\/8yCY91ke9T\/hq19MHbByjYUQjmNdaEFyQKuwwk61m+lo9e72+tRcyJMT2qWPs5ToKHU0WUPeD8VKkAntW8wN+VBPSvlY8jAitLw7jqqsE1hOFs3hPVCT\/qM0uIrHJbNO\/E2N+I80sQ6VfFRHWV5DXVdmFdRY\/IxwF46Az0INE37eRtORn2NcQCu2oqTPKSdxpSkc7RZOZjG5U\/hQgeUk7ip2bsFT+9qjcOhA51n\/AILpZhcQuYKefPpRt1iTHL86TokBid4qeFxp0Vj6VVNoVDi1KnsaYWeh2NKbN5gQGpmMUCBOhFVCT4ykZHjuE+FdzD5WpwcUl1AxImBn9Y19jv70ZxbBi7bIjWJFZCwzKSswRW3Shw+ERwIIyjlXPhLCqGyLPPTagDjWJzGCeekT9KHu2bjPCklTqDPI\/uKQqGb4oDRI7AVHB4EM2ZhLSNO1X4ThyoCSYbTU\/vSjcLYBKwdzoPTelQWeYzCKQwA2WfprXuAwmZgIplZslzdYDyhWA9\/\/AFVnh21IDdtPpVUKxPx3hwBHtP1o9eBg6xvRviSz5NtjP1pzw5wUXT9wKTGtmF\/s5V+EpHzm4Ae4On5Vw4SGDZRqvzKN4\/iX+VPLVkXCs6G1cf3Bctp9alhSBfRtgWIP40mCMm13EYfzW3Yofce45UNivFBeVvWEfuCVP61qePzhr5GWbVzzAHYHmPSgm4Phb5kgox5qYHbtTsOmVucU0VbaC2gObKCTLRGYk84rd+COPAsJmREjlSPE+CGXVLkr\/iGv4VXw6y9i4EIg9RQ2FDvxDw1beJcJ8jEOg\/hD+bL7EkUJhrR5cjWm49aV0s3gAGZCrAdUMT7gj6UssIAaiT2NKivEWMy60ue0BT3EvpApdetb0lITFjtIoNnMx0pg+HMwBUGwsCTVWNCLiU0CjmmfELRIpeUoY09nmc11dXUUaWOsLfLT+VGMwCsp3ETUbVpS4IEGaqxzFmzjn5WHpQ1ZgQuXIg8qIw7KwOu2vtVVmwCDJ\/8AYrrRCzpyqHH9AiTW5kGqcikFSdRsa9fOYK1cUUwdjzpIKCsNdzqFnzCjQSNGG3Ok6W8rAg0wTElhr6VSChtYjNln0rL+IsHkuyBoT+dOWcyp2ijeJ4MXUDcwJqkyvgh8OcIW67PdJFm2ua4Ru3JUX\/Ex+gBNMMSWd2dbaKp2VBCqBoAPYDXnU8VihYw9u0N3m48DcyUQewU\/7qjhrqMuh9aaEwPEOY8wj1onCQstI0ED1aoOgZ5CnKOuo9DRGRQFVdCTMdzVkmg4Zh4wzMfvAn86h4bs5bKyNwD+FMHTLhyBsFOntQiFkRAFOUKon2oE2eeIU\/unPbX2qfCXm2s9vyqOOfPafUbHQ+lB8Fu+QaaQo\/Ck0NMswCgYm8n8QBHvv+VC4zyOkcnGvvV7v\/5iPEBlKnv0\/KhuJPLgDkw\/Oih2NfFeGD2VcgeUgmeh0M1isbbbDhXUFrRME80boe3Q19HxaB7DKRIKR+FYvheICNkuDNbcZXB2nke1D0gixf8A267gBD79KfYdkuC2fvqCrKRq3Q9zSvi3DTaYZB5Pukfke9EcLxRVSNRUt0yrGvEsQoyJ\/CuvTMxlgPTQe1DKkmRSu67FpphgrxjWspdAjiJqkvpRV\/WhXSkFF2GAJ+tdiEBgDWgzcI2qWcyDTTAA4phPKSBWZuLBr6A0Ou09aTYrg+bUCtE0GzK11P8A+xwN5rqdl7DLiERA9D1qvyiZ2b9mmd2xsRsPpXrYPPygdeVIzoRraIaOpjsZGhqF1SDlbQim78Nf5cpPMEbiKjiOFuwViDPM85obH5KeGhRcQMJQyD7iq7KKzMk6gka\/hTC3gCN6lesWwQw+tRoPLFVzDMv117VbhQRoabiyp1XUHlXq4IE9NKLKoFXEAA5hpyqeCxjspGoG1Su4QAa6ivLawAqjekhtaBPEq5XtiZ\/ul9pZo\/CD71Xh4VYDAE7+9WcetFrzqNlyp\/tUD8waGIA0IjTQ1rEzZdhHIkDWTvyijMOJcDoedA4EHU9Pwo\/CN5w3tVWI0\/F7mXDMf8B\/KquA40XsMv8AEFAYHnAAqziKh8OF6kA0ow2FbDOCp8vMdjvTIYwu4JgCUhlIMjbT+dCcJTyQOo\/KnLkg6HysCR2NA8ISVYSJ\/wDf8qbBFHG1IVXA1SG07b0BdcG6sbEgj3pzj2lYbuDWdwqkOg3iI9BSsZtMFJSKyOOwhS40rpJ9wdf36VtMC0fhQHFcEW2GuscvahuxIB4NeV0Nq9qpGUnn\/hYdxQ13g5tuUPLY\/wAQOxFQt4Jh5l+dTqs69wafLiBctgkee3+K8\/pv9azlw1jt7EV\/AwdqsTAGJFNndW1AFdbuzyrCzXwJbmFNRv4Qx3p4U1BIoq9hVKkjSiw8GPvYGFmo2cKWArSLbDAzy0quxYBkRoKpB5EmQrtXqXSNxT37KpIEAVVjMAFBMfvrT6KqFUoeVdXZRXlKyi\/E4dQwWInedoPMGpytswTInQrqDT9uLysfDlB91kWDPeaWqSUAyKigkjONp9NxTsVItNuArqSTz02n86FvXk1DGBzjnNH3LjMiDKxQR8mx996XPw5maFEHeG5iiwo69ZtZv7t5lSROxgbdjUMAiHTICD17c+1FtwpkSQBP61Wq3E8yWwR94evL+tKx0Rx1wgeREAEVBLueAyAP6UwsMhAz2nBG7KAQfWelXFEVWuo+Yx8pWGPSKTGhc9pD5cpDdeX9KKXh1u22d9kGf1gSB9YqXDmW62RldDuWIjQ8hQHi3C5M\/wDeEpBCzqdBt+FEdsJcMzxjFKzF0WCxJYdzqTQheQnXpry71UqZwCpkjccxVtmR23AH510o52TwbaaiCZ96YoQKFtgD9BVrtsaBGowbi5ZI+8K9vWMywR0pXwa8AelaD4wAzaR+dOyGQxQCBQR939KC4WpV3Xpr9ZP61XdxRdxp6Cuwd7++frEflQCLMdcnQ70iwLzdUT1pnj367cqRYe5luqe9Sxm3wGK1Ctyo7F3AoLHlrFIMBdzXSRpFOs4aQfT8KBi+4c4zqsN96OY5H1qjC4oB1IBgzPfkQaOsW9yCaUl5MzMHXSPyptaBOhk+GyMVjQ6qex1H77V1m6qyCKISbiK3NND3G4\/WoXbKkCSJrjkqdHXF2rI\/FBirkGkTQ4wgOzAV1vhxJMvEChFHXVCmNprxyF1Brx8Izj5tuh\/cVRc4c38VOxHtnzMG5UxxlyVy9R0ocYVsqhYJ39h1ofH3nAAC7U7Cjz7AldU04bdIkx9RXUrEeNbgwzOumwAIUz06b1XdcKD5yZ01Eg9gpiParbFy2wb4yNoZUp0JJg9fwqm46RIW5EjRu+0TNVsRZhb8+UwZ1GUkD3B+U0fZRdSUMAakttOg1pQ+CH3HIXTK0x7HTT3qjE4K4Fyl8y5hmAJbUbHs1HQ4O8QzKRkzFSQD5hpPPXkKq+1OJ8gI5FdQfYazS6xca2pHxH6rnQkd9RmooYvMR51B65o19DtSoLLr+MECAFnuY942qaWxkHMQYgyPqNqW30gFg+VuYWCGO2hByhuxFUree0gZ2VgzECIB0AM5QeU0UFjMYoMAVYLJgqx6d6C4jxEWVZnRXYqyqrCVEjUkelWBs6j5XB2MEfs0m4qyJo6u5OiookDuTVQS9bFNuhBbtqXzZCg5hCY\/5E1J7oLc9Ca9biAIIKgKCYUHzH1qyxbUrm1MnY7r6\/zrqo52yVm5rFH2Bm0ag7F5V9avsXxrrSEHYO0VfTaj8TieQ2\/Wl1vGDTUTRTuuhJpAEYJYbMd6Wvicl143M1cOIKZjcVn8ZeZnLCI5a6mnYh3iLg0BOwk0sdgWRkOb0pfjuIMEZ1IBA1n0iKSW+JyAQsMNxyPeBSGfTOHMqpmYxGpql\/EyBoUTWHu8ccqV1iNCZnuO9UYPiiKdQSTzqWOj6nh+IeYEbNEe\/KjMRh0eSsBufQ1i+HcTRklmAyGRJ37UstcauPfhHIGaT3PT0p2Jo+i8PkFk2P8AL9mp4fhoztncnNt2PalPBsefiwxnbfY6Qfem32q2lwEuykSYykhjyKnmK58nTox\/+SxeH5SUBlBuOc9astYE8tqCwuIdict2SdfMInnsaknEtG\/vFJE6CR+FSaf9DUwTJOVxJ0IOulU5svNWkQTO1BJimyhjJEwf6ilt602csNtZHUdKVBY\/w1q4DJZAIMQ0yK8xN2VyG2ZJ3BH4VnM6zAZskTB0ZT27UN9qusylHY5TInpTCze2rGglX+orqyTcdund\/wDjXVIWHXFVwIBUjSoY\/DN8pIBPMb0VbxSsAQBrsa4iW11q9oNMot4ZSuUtDDeRv3r1rbLDAqT0In3B61K5d3zawYHWqrmHVcsE6zQJolhsIM0vmBI8sHy1RjGuIpQFozTmmR025GOfaiCzASrhh35V1zFK3lup9KaZLQofDoqhspImSRIza855VclrP5y6wQQJUeU9j170dicMhQIuxGs6z60Jh+HFFOU6TIA2qnsSJYYskEOIG2u3KYqviVv4lwLbdJYQpIOrkaCQoiTz7161i4B5LfxSJLeUZljtzFSs38pVzahgQw8oiR1GnOpWmPpgeI8PfyuqiQZOvMaHf2oFcXeViXBk65uYj05VvMQi5pLZs5JYFcsTqdRpSnFYdQ+XymOg6iRW8cmjJxFVvEEyIRmgRJIPbbnUDxDKYe24j3pnewCOR5NY5HpXjYRVEMG9jtR6QvIAeKICPnE67VY3Es58ise58te3sI8ZkdT6qNPXahbti\/HlKA9Np9zTtB5DWfykkx+Apbb4wiNlyyIjTagr3D77nzk+50orh3Dip8wBEQY3otE0DY698QwgIXWR1oQYQcm16UzfDlScqNHXl9aXPhXJliB6UAD3gynLmNVqx3q42Dm1n1POikwhjcelFoKCMJdQjXQ+kj8NqNOHDQ6aMOhEH3pdh7cHUaUZZwuV5R8s\/T3FSPo+wGLIdFGZWZlUz67\/ANaf8RsPbeDcIjYT5YYbjkKxVvFQVBOqnl+PpW0UveRQ6kSogjcgajU7RUTo0hZXhL9zpnE9M0+gGtHqpJLIArAebnppuKVWNfKxK5ToXTIY55WXeiGxpQ\/OMrfwawRsYb9ayNUPmxashU5dNTp5pGkmla8SAAysHEkfLEEcjzoYu4nPlIaST5GInmD80UVjsUjEOi2suhKCSIGmuX5SYoHZK9i7DHzqQxIGgkCesDTWmSpkEgIFGzGCfpWaxmJZyXWEUCJRiZE6ZgSdarwtwq+YPqQAYyJMcjoQTQCZpszf\/qn+0fyrqUf9wXhoEYgbec\/otdSodoJsbe9ENzrq6tTMV4tjnXX71Oruy+ldXUmAvw3P1q9\/nb0rq6kM9w\/z+1G2\/m+ldXUMRQzHPvRD\/L7iurqljQnxIj4caSpnv52pLxT\/AOQ+i\/k1dXVceksjb2q65tXV1N9BA8UBlHm0rq6gTIv8o9KqTeurqaJYbh96ExSDPsK6upksX3PmFX21HTl+tdXUIZEDzVdiflNdXUAinDoPi7D9gVvEc5E1O36V1dUSLiA8Q396psaqZ11G+vWurqgthGCc9T9a9vqJmNdda6uoGhbxDY+1e4Y+QetdXUwCFuHqfrXV1dSA\/9k=&quot;,&quot;following&quot;:false,&quot;bio&quot;:&quot;php developer&quot;,&quot;username&quot;:&quot;ujjwal&quot;},&quot;description&quot;:&quot;tester&quot;,&quot;title&quot;:&quot;tester&quot;,&quot;body&quot;:&quot;sjdjjdjjsjsjdjdj sjsjs jsjsj amamma snsnns nndndn snnshhsh&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;tester-n1cpqg&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:04:36.935Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T02:46:37.414Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;varan1&quot;},&quot;description&quot;:&quot;small white cat&quot;,&quot;title&quot;:&quot;cat&quot;,&quot;body&quot;:&quot;this very good story about my cat&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;cat-6jmlhu&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T02:46:37.414Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T02:04:39.394Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;test121q23&quot;},&quot;description&quot;:&quot;test article&quot;,&quot;title&quot;:&quot;test new article&quot;,&quot;body&quot;:&quot;123456&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;test-new-article-df0b1s&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T02:04:39.394Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;vue3&quot;],&quot;createdAt&quot;:&quot;2021-03-24T01:59:51.356Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;jiansir&quot;},&quot;description&quot;:&quot;vue3+vite&quot;,&quot;title&quot;:&quot;测试demo&quot;,&quot;body&quot;:&quot;### 这是markdown语法？\n`javascript\nconsole.log(&#39;hello world&#39;)\n`&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;demo-mph0b&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T01:59:51.356Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;automs&quot;,&quot;awesome&quot;,&quot;Vue&quot;,&quot;lorem-ipsum&quot;,&quot;mhndeveloper&quot;],&quot;createdAt&quot;:&quot;2021-03-24T01:25:22.371Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:&quot;I&#39;m nice developer &quot;,&quot;username&quot;:&quot;mhndeveloper&quot;},&quot;description&quot;:&quot;about the real story behind lorem ipsum &quot;,&quot;title&quot;:&quot;This Is not a simple article&quot;,&quot;body&quot;:&quot;Lorem ipsum dolor sit amet, *consectetur* adipisicing elit, sed do eiusmod\ntempor incididunt ut **labore et dolore magna aliqua**. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. ***Duis aute irure dolor*** in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur. ~~Excepteur sint occaecat~~ cupidatat non\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n## H2\n\nLorem ipsum dolor sit amet, *consectetur* adipisicing elit, sed do eiusmod\ntempor incididunt ut **labore et dolore magna aliqua**. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. \n\n---\n\n***Duis aute irure dolor*** in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur. ~~Excepteur sint occaecat~~ cupidatat non\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n### H3\n\nunordered list:\n\n* item-1\n  * sub-item-1\n  * sub-item-2\n- item-2\n  - sub-item-3\n  - sub-item-4\n+ item-3\n  + sub-item-5\n  + sub-item-6\n\n\nordered list:\n\n1. item-1\n   1. sub-item-1\n   2. sub-item-2\n2. item-2\n   1. sub-item-3\n   2. sub-item-4\n3. item-3\n\n#### Header4\n\nTable Header-1 | Table Header-2 | Table Header-3\n:--- | :---: | ---:\nTable Data-1 | Table Data-2 | Table Data-3\nTD-4 | Td-5 | TD-6\nTable Data-7 | Table Data-8 | Table Data-9\n\n##### Header5\n\nYou may also want some images right in here like ![GitHub Logo](https:\/\/cloud.githubusercontent.com\/assets\/5456665\/13322882\/e74f6626-dc00-11e5-921d-f6d024a01eaa.png \&quot;GitHub\&quot;) - you can do that but I would recommend you to use the component \&quot;image\&quot; and simply split your text.\n\n###### Header6\n\nLet us do some links - this for example: https:\/\/github.com\/MinhasKamal\/github-markdown-syntax is **NOT** a link but this: is [GitHub](https:\/\/github.com\/MinhasKamal\/github-markdown-syntax)\n\n&quot;,&quot;favoritesCount&quot;:2,&quot;slug&quot;:&quot;this-is-not-a-simple-article-equqq1&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T01:28:28.522Z&quot;,&quot;favorited&quot;:false}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.40">
+      <div class="step-ref passed">40</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.41">
+      <div class="step-ref passed">41</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.articles[0].title == &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">2</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.42">
+      <div class="step-ref passed">42</div>
+      
+      <div class="step-cell passed">
+        <span>*</span>&nbsp;<span>def articleId = response.articles[0].slug</span>
+      </div>
+    </div>
+    <div class="time-cell passed">6</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  <div class="step-row">
+    <div class="step-container">
+      <div class="step-ref passed"></div>
+      
+      <div class="step-cell comment"># Given header Authorization =  &#39;Token &#39; + token --Added to the config</div>
+    </div>
+    <div class="time-cell comment"></div>            
+  </div>
+
+  <div class="step-row">
+    <div class="step-container" id="0.46">
+      <div class="step-ref passed">46</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles/&#39; + articleId</span>
+      </div>
+    </div>
+    <div class="time-cell passed">8</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.47">
+      <div class="step-ref passed">47</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Delete</span>
+      </div>
+    </div>
+    <div class="time-cell passed">404</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.47">23:18:39.149 request:
+2 &gt; DELETE https://conduit.productionready.io/api/articles/dinorah-heaney-b0x8e
+2 &gt; Authorization: Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUwOTc4LCJ1c2VybmFtZSI6ImthcmF0ZTk4IiwiZXhwIjoxNjIxNzM5OTE1fQ.qFcWPrao6NH8gGRgZJ4GR5ALo2ozMOwpXzqoFh0neas
+2 &gt; Cookie: __cfduid=d0b354901bd24e388a4aed35abf1c826c1616555917; Max-Age=2591998; Expires=Fri, 23 Apr 2021 03:18:37 GMT; Path=/; Domain=.productionready.io; HTTPOnly; SameSite=Lax
+2 &gt; Host: conduit.productionready.io
+2 &gt; Connection: Keep-Alive
+2 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+2 &gt; Accept-Encoding: gzip,deflate
+
+
+23:18:39.546 response time in milliseconds: 395
+2 &lt; 200
+2 &lt; Date: Wed, 24 Mar 2021 03:18:39 GMT
+2 &lt; Content-Type: application/json; charset=utf-8
+2 &lt; Transfer-Encoding: chunked
+2 &lt; Connection: keep-alive
+2 &lt; Cache-Control: max-age=0, private, must-revalidate
+2 &lt; ETag: W/&quot;99914b932bd37a50b983c5e7c90ae93b&quot;
+2 &lt; Status: 200 OK
+2 &lt; Vary: Origin
+2 &lt; X-Content-Type-Options: nosniff
+2 &lt; X-Frame-Options: SAMEORIGIN
+2 &lt; X-Powered-By: Phusion Passenger 4.0.60
+2 &lt; X-Request-Id: 9e225a21-5548-437a-bcc8-94e1b37b58d6
+2 &lt; X-Runtime: 0.116397
+2 &lt; X-XSS-Protection: 1; mode=block
+2 &lt; CF-Cache-Status: DYNAMIC
+2 &lt; cf-request-id: 0903d6de2a0000e6e8eebe2000000001
+2 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+2 &lt; Report-To: {&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=OLMlLyxLUR7s%2BxezuGVQf5qCrKVhJ0pGTvfLuwKBPNIrnbNQr7S6jwmntmczObXNmGxqn3xstJG5Mprk7wTb%2BZz4hDeBbollRQTxcZvUkfGRFIK12IrqaiXdRw%3D%3D&quot;}],&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800}
+2 &lt; NEL: {&quot;max_age&quot;:604800,&quot;report_to&quot;:&quot;cf-nel&quot;}
+2 &lt; Server: cloudflare
+2 &lt; CF-RAY: 634cc0dd0e35e6e8-EWR
+2 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.48">
+      <div class="step-ref passed">48</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.50">
+      <div class="step-ref passed">50</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>params { limit: 10, offset: 0 }</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.51">
+      <div class="step-ref passed">51</div>
+      
+      <div class="step-cell passed">
+        <span>Given</span>&nbsp;<span>path &#39;articles&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.52">
+      <div class="step-ref passed">52</div>
+      
+      <div class="step-cell passed">
+        <span>When</span>&nbsp;<span>method Get</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1010</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.52">23:18:39.552 request:
+3 &gt; GET https://conduit.productionready.io/api/articles?offset=0&amp;limit=10
+3 &gt; Authorization: Token eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MTUwOTc4LCJ1c2VybmFtZSI6ImthcmF0ZTk4IiwiZXhwIjoxNjIxNzM5OTE1fQ.qFcWPrao6NH8gGRgZJ4GR5ALo2ozMOwpXzqoFh0neas
+3 &gt; Cookie: __cfduid=d0b354901bd24e388a4aed35abf1c826c1616555917; Max-Age=2591998; Expires=Fri, 23 Apr 2021 03:18:37 GMT; Path=/; Domain=.productionready.io; HTTPOnly; SameSite=Lax
+3 &gt; Host: conduit.productionready.io
+3 &gt; Connection: Keep-Alive
+3 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.10)
+3 &gt; Accept-Encoding: gzip,deflate
+
+
+23:18:40.556 response time in milliseconds: 993
+3 &lt; 200
+3 &lt; Date: Wed, 24 Mar 2021 03:18:40 GMT
+3 &lt; Content-Type: application/json; charset=utf-8
+3 &lt; Transfer-Encoding: chunked
+3 &lt; Connection: keep-alive
+3 &lt; Cache-Control: max-age=0, private, must-revalidate
+3 &lt; ETag: W/&quot;09024497e9bf70b0719b5b17caf648d2&quot;
+3 &lt; Status: 200 OK
+3 &lt; Vary: Origin
+3 &lt; X-Content-Type-Options: nosniff
+3 &lt; X-Frame-Options: SAMEORIGIN
+3 &lt; X-Powered-By: Phusion Passenger 4.0.60
+3 &lt; X-Request-Id: ea5e72ee-32ca-4cd8-8963-f00bc3384a69
+3 &lt; X-Runtime: 0.554784
+3 &lt; X-XSS-Protection: 1; mode=block
+3 &lt; CF-Cache-Status: DYNAMIC
+3 &lt; cf-request-id: 0903d6dfa90000eff9a8392000000001
+3 &lt; Expect-CT: max-age=604800, report-uri=&quot;https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct&quot;
+3 &lt; Report-To: {&quot;group&quot;:&quot;cf-nel&quot;,&quot;max_age&quot;:604800,&quot;endpoints&quot;:[{&quot;url&quot;:&quot;https:\/\/a.nel.cloudflare.com\/report?s=C0OVeYdlVUyH9P7h4VohLJNRXzkUkJCP%2FGO8gk5Ud%2FCse72vvOxppjizco0NabXNEFZeuqXlw0asEJxnSxMkRMfp%2F84lwSRDIqY3bsuQ%2BMfC4A6kfiqkR6XD%2Bw%3D%3D&quot;}]}
+3 &lt; NEL: {&quot;max_age&quot;:604800,&quot;report_to&quot;:&quot;cf-nel&quot;}
+3 &lt; Server: cloudflare
+3 &lt; CF-RAY: 634cc0df7b48eff9-EWR
+3 &lt; alt-svc: h3-27=&quot;:443&quot;; ma=86400, h3-28=&quot;:443&quot;; ma=86400, h3-29=&quot;:443&quot;; ma=86400
+{&quot;articlesCount&quot;:500,&quot;articles&quot;:[{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:15:30.878Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;tessa.oreilly&quot;,&quot;title&quot;:&quot;sandy.reichel&quot;,&quot;body&quot;:&quot;mireille.mcclure&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;sandy-reichel-zg1ags&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:15:30.878Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:10:02.334Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;damien.barrows&quot;,&quot;title&quot;:&quot;maude.romaguera&quot;,&quot;body&quot;:&quot;jung.ankunding&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;maude-romaguera-sxoaod&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:10:02.334Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:06:00.133Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;fredrick.oreilly&quot;,&quot;title&quot;:&quot;sena.lemke&quot;,&quot;body&quot;:&quot;lane.west&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;sena-lemke-ae122z&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:06:00.133Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T03:05:38.088Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;karate98&quot;},&quot;description&quot;:&quot;wen.stanton&quot;,&quot;title&quot;:&quot;elke.nolan&quot;,&quot;body&quot;:&quot;addie.prosacco&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;elke-nolan-mxsjgt&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:05:38.088Z&quot;,&quot;favorited&quot;:true},{&quot;tagList&quot;:[&quot;hdhdnndn&quot;,&quot;twtrer&quot;,&quot;twggs&quot;],&quot;createdAt&quot;:&quot;2021-03-24T03:04:36.935Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;data:image\/jpeg;base64,\/9j\/4AAQSkZJRgABAQAAAQABAAD\/2wCEAAoHCBYWFRgWFRUZGRgaHBweGhocHB4aHhweHBwaHBocHB8cIS4lHB4sIRoYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHhISHjQrISU0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NP\/AABEIAMIBAwMBIgACEQEDEQH\/xAAcAAACAwEBAQEAAAAAAAAAAAAEBQIDBgABBwj\/xAA+EAACAQIEBAQDBgMHBAMAAAABAhEAAwQSITEFQVFhBiJxgRMykRRCobHB8FLR4RUjYnKCkqIHFiTxM0NT\/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAECAwQF\/8QAIxEAAgIDAQEAAgMBAQAAAAAAAAECEQMhMRJBIlEEE2FxMv\/aAAwDAQACEQMRAD8A2+AvhkjrWS8b8HzoXA8yz9KYcExWwmtBibIdDzrVq0Ph+e71ul+IUgzWw8VcMNm6wjynUVmcTbkVjVFE8LjCCJ571q+CYzQoeeorCA6e9OuH4qPWlwB\/exmV4PWjvt2kTp3pThpcTuRV1q6DKstFsC66SGDA07wF8gCl2EZAMrVNL+QxOlDA01w5lzCs9xfCcwKcYW+CBU8VZDAjt+NJaEzL4Z9CJ6\/v86X3rY1+tF4pCjxG9M+GeFb99gRbcIYlyOR5gEjNyrVNENGWuqN\/Sj7OJmNe4re4b\/pmuRRcv665gF09N5q0\/wDTO2MuXEsImZUGZ256U\/SCjCmZBolH0\/CtZiPAF0DyXEf1ldOXWkmN4Hes\/PbaOwkH6VUZJiaEmOudDrRuBTOuvTT2pfj1k9P3tVvDL8eWaiXRouxele4O9yiqMfekxUVeIIpxExljyctecMcggzrzrmuBhtr+lC3gUIIqZqykbWzdGWoYuMtKOF4oka01e2StcteZG2mgLh0ZqY4i2CRSjC3ArQTzoy5ifNqack7saqjR4dQEFLXfU+tRTiICb0kGNclso51zwxybYOSNLhsQJHYVdjL0iKx1vEtJBNN7eN8mu4qnhadouE0A4lfMfWupddxhJNdW9MLRbw3ElSAa23C8UGEGsDcEGetOuEcQiO1dnDm6gnxzwf4lokDzLqK+Q3l5c6+\/3LgdDz0\/Svj\/AIs4Z8O5mA8rGokvoRfwx19YNe2XysKMvW5ojgvhu9imf4WQBIzM7BAM0xvvsakdBWAxUa8juKZNYmHVjHOm\/AfAOWftOJtpqD5HDyOa6xlPfX0rSP4XwCmExTheaeVvo0SPxqf8HaMNezDUNNHIucbaxrW5tcA4aBrnfWZLmT20IoyxhMChJSwNRBzGR7STFFE+kjC4O7AAPKnnDka6QqCT+9TT2++DJlsNb19AfXSr8NjrNhSLaRuQJB\/E61X9UnxEvLBdYVw3gqW5a6EZjBiASCO5phd4hGi6elZY8XLeYtvXgx4y5mOnT98q0jhSMpZ74PbvEDuNPWqkxzNWYbj9vNBMdzP5mibWKmCGkcq6IwitGEssmaS3j2GlF2uIg6PH0rLNeidaoHEW+4pPem8MXtAs0lRpcfwLDYhWBQSxnpr1kbHSsd4i8M3cyFFBC+VVVVUKvLXdjM704w\/F2EBgV700\/tMlQdJ671jLA70brNGtmCfwRinIhVWPvFtI9qcYD\/p65Q\/FvKH+6F1HvOpphjvEARiGfXpM\/gKD\/wC4Gb5EdvaPzrNqMevZcXKW0nQXa8CW1PmxProP50Z\/21gVHncsesx+VJvtV9zqAn41VewbES7s3bYVDa+bKqS\/Q9TC8OtmRqRykwaofEYfK2XMxMxGgXpvvS23wxEXO403I\/LeluJ4pLGAFUbDpUSVrhUWxdxF4cxULFx3NVXruZ60PDMMmhG9KUlGNlJNsGHDnaI50fZ4YUQTuN6bIoUirjdUK01yf3yb0aeNGb+w5nnlFEcQs5U06VC5jlDb0r4jxifLXRFt9J0kBfCrqYWiCBtXla0RYJc1Ee4rxHKkEVRaua5elE4cjVTWz2C0zScIxUiJ0NU+IeEfEskR5hJWlGCxGR8vfStOMUHSR9KQ2vp8Zv2yrFTuNKrwmLay4dRI+8h0DDp6961HjPh2VviqNDvWUdZrNoDf8GxWGxYyoclyNUbf1U\/eHpTJOCoNGXWvkaOyMHQlWBkEaEHtX1Pwr4yt4hVtYghLw0DHRX7g8m7UmrHF0X3uAAaozD3NCXuHOP8A7mrXvhpGhpRjLJrBxkjdOD+IyGJN1DpcYnvTHBcZZhkcQw0mvWwuZ2MbVBuBXXGZAMw2WYJq8U5qVInPhxyhb0WJipQHodPaquNcYWyoLAsx1A6yefaluHzqxS4pRgdVbT09R3ozi3DhiEWTlI2aJjnt0ruUm0eY4xUlfAXh3iS65ObDBkgyVB2G8E6E064e6EB7LSjbRrB6EHasynhfExlS+Anq4338tPeC8E+zKwLli2p5D2HWqxqV7DI4Vpj93GUGSZ\/YpfxTjPwh8Kzla7EwxCqg\/iafyonD3nIy\/D25yI7\/ANBS\/iXhSzeLPmdXYySDz9DXRKMvP4mMHFS2Kb\/H7qXlVnFwMFzAZSATyXKNK2TXWW2es6e\/9aRcI8JW7Jzks7AyuYAKCNjA3NaBtTBMzpWLU1FnR+MpR\/X0F4bhFMlhLHUk608tYURoBUG4c4ysimRE+lGJbcD5TXDDG3bl07smSK\/GHCC21G9efDDEaaVNxlkt5R30rO8V8SqAUtGW2Lch6dTXRGKijkcnJ0d4h4gC2RTou\/rSF1DCOdQttJ1Ya61e9wbDWs5O2bRjSE95shgmnXC+IERrS3HYYtrFK7bsrEdKylH0qGnTN6\/FBA1oDG8X8pg1mPt7bVH4rHfWoWKKG5thP2wk1B968spJqd22Yq+AEWsZAFdS74ddTsVBaP55o5DrNL2EPrsaY4YSDHIVopA0Tua+Yb0Zw7HFW12jWgkOlDO+U0NjQ+x2HW8jL12r5nfsFHZGGxr6LgroyikXjHh0gXkGv3qT2Bjb6UA+lNDrQeKtVImPOB+LcTYAUXCyfwv5h7E6it1hONPdwxxDoioXyKATLMBLEdhpXx4V9D4JcD4CwpPyXro\/3ZG\/Wm0CZqOG8RtkGQJ515xG+U8yfvnWbxuFfNNpSew51dwziZZhZdWznQKQZn0qloUm30fDH2cSgW8gzDZtmX0IqJ4c6CbTq6\/wt5W\/kaB4lwK9bX4ijTmAdRTHDcRt2bRN1grRrmM6nbKBtHP0rSLf0ylFCrE8TvJp8Bvpp9djSx+IYqZ+GQO\/9Kv4x4jxSk\/BtZ7f3XX+8Vh\/p29DSN\/EWKJkyp\/yZfwiq9tfSFjT+D21xi+F1y+mQ6f8hVQ4riCQRlb\/ACgyPVTqKQ\/2\/iRzJ9VB\/SjMBxbFMT\/4a3A2hm2V\/wCYgD1prK\/2H9K\/Ro+FcRv3nyKsnn29ela\/BcOVGDu5Zhy2AP60n4C9u1ZVEyLcibiBxcZWPJ3XQntypmlwse1P22ulKCix19sFROKnnSlsQBz9qpfiKJqWA96zbLqwrxExbDXeyGvm+EtZl6mt\/a4oj27oYymR5nTYGsBw25B1NRJ2giqYVZswdY96KvXhH9KpxQ1kD0qKmeY16VmahVi6CsRS2\/gGmasDFSBrrzp5gHDATFJsdWjL2OGXHJVEJp5gPDd8RmT8a2PBMKqyQKehK48\/8mUL8o1jhj9MKfDLrLH6Ck+MwvnCivo+OcBSe1fPRfzXT01qP4\/8iWRNsrJjiqo8\/ss11NfijrXV0+mZ+TFm\/nTuIprhrmWG+6RWbw94xFM8HiwAbbfK2x6HlV+vyMnwLN\/zada9KEyelT4fgNweWs9aKxCgLpvVXYkynBXDtTNFDoUbYiKRYd9SOYpxhbnOqiWYXimDNq4VO3KgrqSK23irAfEt51HmX8qxNt6YhbfSDWt8IL8Wzcsj5ldbg7hgUIHvk+tZ\/E25FaTwFhWRL+J1AXLbQ8izyzD1CgH3FMXD6Fa4alu2vxHykDlvQx4zZtt5EzPy0zP+G1ZfFYi5cuomfykEv1gcgeUzTbE8S+zWHdIXKsLG5Y6KCdzVohsKfxS6uPiWmCjVgRGnKRuOVL+M8cwpb4htIWynRyTHYCYg6iIrJ4W1duAPecgHUgaFj1Y86OF6wAM6KXXTUTI5Gq2kZOpS0ZlcQc5dRkzEmFlQJMgCOWulH2uKXRtdcf62\/nQvF8b8W+zjbygDbRVAGntVQurWDs6Y8GrcWvGZuuf9RqD3nceZ2I7sT+dAfHXrUxiBtNJtlKjY+A8KXuOiso0Xc+vStXiMSUOSCX2gbk\/yrHeC8HiWuZ7XkQiHc9OYHetZbZ7bufhu4B1uBcx9I3IrXGnRhOSvQLe4Pi7pnOiA8oJPua9TwpdGrutxu8gU6tcbtGMxyno0qfoac4a8jjysDVNISbPnXHWuWLLLcGV7jZQB8oQanXaSYrOWbsazFfZOLcGTE2zauA5T8rA6qwHlYe\/Kvi4XIxVtwSD6gwfyqJKik76O8Mc66masFsLzAoPC38vOjHcHbaoLQPiXBMDeiMBeCka+tBMmszFTkAik1aKTPpXAXlZp4TpWV4Bd8g1p8LpIrz8kG2zsXEZTxTx9UZrfONawrY7WQau8dKy4gk86zYuzXThxRhGkc85Nsff2k\/WupF8Q9a6tfKIth1u0YzDccquddiOcUebYAnSKGW3MjqNKiSMzS4Fs6L15HrG9B46\/54FR4dxAhMhEMrSPQiDQT3IbN3ocqjoV7PbNtg7N60TgMUQ2RvapJeUT3rx01zHlVqWg9OxqnmBU7HSsBxnBGzeI5EyK3GGxAJkUD4jwYvJmA8y\/WtFstMxziRW7xGH+z4axhgYKp8W53e6A0f6VyL9aw+AEsqt\/EAfrBrS+LcdcDuxgkk8+hj8IoEynhWIBvPJ+VQB7kzVnH7hfJaQFho7mDE8hWNw+LdWz6wdD3o846dcx+pFVdEtWjS\/CIUaR66fnSXGr1cdo1oe0zOdAzfl9a7EIE0OrnlyFDnZMcaiLAktp1rx7ZBopcIykE6A0T9lbbf1qLNKFRnmAK9tqJkmiuI4ZhuIgVW2DIXbWJpgbHhXiq95EthERABtObrW2wxS6ufMyP\/EjEfUbH3FfGMKzIVYcwfwrVcF486jKontp+E1pCVdOfLBtXHptn409lgmLVLtltBcyiV\/zjUEdxReM4aqobuEIUxmCA+Ruw18vtWbxOOuPbIayxBHSf1pNwTxTcwbZHRmsk6qZlZ\/h\/lTk18DE5VUj6N4c8RfEQFxB2Zen7NYzx5wg2sT8RNbd7zrGwbTOp9\/N71bi8RaDJiMM4a1dYhgN0eJgjvr9K0N8DE4J7Zgugz2\/8yCY91ke9T\/hq19MHbByjYUQjmNdaEFyQKuwwk61m+lo9e72+tRcyJMT2qWPs5ToKHU0WUPeD8VKkAntW8wN+VBPSvlY8jAitLw7jqqsE1hOFs3hPVCT\/qM0uIrHJbNO\/E2N+I80sQ6VfFRHWV5DXVdmFdRY\/IxwF46Az0INE37eRtORn2NcQCu2oqTPKSdxpSkc7RZOZjG5U\/hQgeUk7ip2bsFT+9qjcOhA51n\/AILpZhcQuYKefPpRt1iTHL86TokBid4qeFxp0Vj6VVNoVDi1KnsaYWeh2NKbN5gQGpmMUCBOhFVCT4ykZHjuE+FdzD5WpwcUl1AxImBn9Y19jv70ZxbBi7bIjWJFZCwzKSswRW3Shw+ERwIIyjlXPhLCqGyLPPTagDjWJzGCeekT9KHu2bjPCklTqDPI\/uKQqGb4oDRI7AVHB4EM2ZhLSNO1X4ThyoCSYbTU\/vSjcLYBKwdzoPTelQWeYzCKQwA2WfprXuAwmZgIplZslzdYDyhWA9\/\/AFVnh21IDdtPpVUKxPx3hwBHtP1o9eBg6xvRviSz5NtjP1pzw5wUXT9wKTGtmF\/s5V+EpHzm4Ae4On5Vw4SGDZRqvzKN4\/iX+VPLVkXCs6G1cf3Bctp9alhSBfRtgWIP40mCMm13EYfzW3Yofce45UNivFBeVvWEfuCVP61qePzhr5GWbVzzAHYHmPSgm4Phb5kgox5qYHbtTsOmVucU0VbaC2gObKCTLRGYk84rd+COPAsJmREjlSPE+CGXVLkr\/iGv4VXw6y9i4EIg9RQ2FDvxDw1beJcJ8jEOg\/hD+bL7EkUJhrR5cjWm49aV0s3gAGZCrAdUMT7gj6UssIAaiT2NKivEWMy60ue0BT3EvpApdetb0lITFjtIoNnMx0pg+HMwBUGwsCTVWNCLiU0CjmmfELRIpeUoY09nmc11dXUUaWOsLfLT+VGMwCsp3ETUbVpS4IEGaqxzFmzjn5WHpQ1ZgQuXIg8qIw7KwOu2vtVVmwCDJ\/8AYrrRCzpyqHH9AiTW5kGqcikFSdRsa9fOYK1cUUwdjzpIKCsNdzqFnzCjQSNGG3Ok6W8rAg0wTElhr6VSChtYjNln0rL+IsHkuyBoT+dOWcyp2ijeJ4MXUDcwJqkyvgh8OcIW67PdJFm2ua4Ru3JUX\/Ex+gBNMMSWd2dbaKp2VBCqBoAPYDXnU8VihYw9u0N3m48DcyUQewU\/7qjhrqMuh9aaEwPEOY8wj1onCQstI0ED1aoOgZ5CnKOuo9DRGRQFVdCTMdzVkmg4Zh4wzMfvAn86h4bs5bKyNwD+FMHTLhyBsFOntQiFkRAFOUKon2oE2eeIU\/unPbX2qfCXm2s9vyqOOfPafUbHQ+lB8Fu+QaaQo\/Ck0NMswCgYm8n8QBHvv+VC4zyOkcnGvvV7v\/5iPEBlKnv0\/KhuJPLgDkw\/Oih2NfFeGD2VcgeUgmeh0M1isbbbDhXUFrRME80boe3Q19HxaB7DKRIKR+FYvheICNkuDNbcZXB2nke1D0gixf8A267gBD79KfYdkuC2fvqCrKRq3Q9zSvi3DTaYZB5Pukfke9EcLxRVSNRUt0yrGvEsQoyJ\/CuvTMxlgPTQe1DKkmRSu67FpphgrxjWspdAjiJqkvpRV\/WhXSkFF2GAJ+tdiEBgDWgzcI2qWcyDTTAA4phPKSBWZuLBr6A0Ou09aTYrg+bUCtE0GzK11P8A+xwN5rqdl7DLiERA9D1qvyiZ2b9mmd2xsRsPpXrYPPygdeVIzoRraIaOpjsZGhqF1SDlbQim78Nf5cpPMEbiKjiOFuwViDPM85obH5KeGhRcQMJQyD7iq7KKzMk6gka\/hTC3gCN6lesWwQw+tRoPLFVzDMv117VbhQRoabiyp1XUHlXq4IE9NKLKoFXEAA5hpyqeCxjspGoG1Su4QAa6ivLawAqjekhtaBPEq5XtiZ\/ul9pZo\/CD71Xh4VYDAE7+9WcetFrzqNlyp\/tUD8waGIA0IjTQ1rEzZdhHIkDWTvyijMOJcDoedA4EHU9Pwo\/CN5w3tVWI0\/F7mXDMf8B\/KquA40XsMv8AEFAYHnAAqziKh8OF6kA0ow2FbDOCp8vMdjvTIYwu4JgCUhlIMjbT+dCcJTyQOo\/KnLkg6HysCR2NA8ISVYSJ\/wDf8qbBFHG1IVXA1SG07b0BdcG6sbEgj3pzj2lYbuDWdwqkOg3iI9BSsZtMFJSKyOOwhS40rpJ9wdf36VtMC0fhQHFcEW2GuscvahuxIB4NeV0Nq9qpGUnn\/hYdxQ13g5tuUPLY\/wAQOxFQt4Jh5l+dTqs69wafLiBctgkee3+K8\/pv9azlw1jt7EV\/AwdqsTAGJFNndW1AFdbuzyrCzXwJbmFNRv4Qx3p4U1BIoq9hVKkjSiw8GPvYGFmo2cKWArSLbDAzy0quxYBkRoKpB5EmQrtXqXSNxT37KpIEAVVjMAFBMfvrT6KqFUoeVdXZRXlKyi\/E4dQwWInedoPMGpytswTInQrqDT9uLysfDlB91kWDPeaWqSUAyKigkjONp9NxTsVItNuArqSTz02n86FvXk1DGBzjnNH3LjMiDKxQR8mx996XPw5maFEHeG5iiwo69ZtZv7t5lSROxgbdjUMAiHTICD17c+1FtwpkSQBP61Wq3E8yWwR94evL+tKx0Rx1wgeREAEVBLueAyAP6UwsMhAz2nBG7KAQfWelXFEVWuo+Yx8pWGPSKTGhc9pD5cpDdeX9KKXh1u22d9kGf1gSB9YqXDmW62RldDuWIjQ8hQHi3C5M\/wDeEpBCzqdBt+FEdsJcMzxjFKzF0WCxJYdzqTQheQnXpry71UqZwCpkjccxVtmR23AH510o52TwbaaiCZ96YoQKFtgD9BVrtsaBGowbi5ZI+8K9vWMywR0pXwa8AelaD4wAzaR+dOyGQxQCBQR939KC4WpV3Xpr9ZP61XdxRdxp6Cuwd7++frEflQCLMdcnQ70iwLzdUT1pnj367cqRYe5luqe9Sxm3wGK1Ctyo7F3AoLHlrFIMBdzXSRpFOs4aQfT8KBi+4c4zqsN96OY5H1qjC4oB1IBgzPfkQaOsW9yCaUl5MzMHXSPyptaBOhk+GyMVjQ6qex1H77V1m6qyCKISbiK3NND3G4\/WoXbKkCSJrjkqdHXF2rI\/FBirkGkTQ4wgOzAV1vhxJMvEChFHXVCmNprxyF1Brx8Izj5tuh\/cVRc4c38VOxHtnzMG5UxxlyVy9R0ocYVsqhYJ39h1ofH3nAAC7U7Cjz7AldU04bdIkx9RXUrEeNbgwzOumwAIUz06b1XdcKD5yZ01Eg9gpiParbFy2wb4yNoZUp0JJg9fwqm46RIW5EjRu+0TNVsRZhb8+UwZ1GUkD3B+U0fZRdSUMAakttOg1pQ+CH3HIXTK0x7HTT3qjE4K4Fyl8y5hmAJbUbHs1HQ4O8QzKRkzFSQD5hpPPXkKq+1OJ8gI5FdQfYazS6xca2pHxH6rnQkd9RmooYvMR51B65o19DtSoLLr+MECAFnuY942qaWxkHMQYgyPqNqW30gFg+VuYWCGO2hByhuxFUree0gZ2VgzECIB0AM5QeU0UFjMYoMAVYLJgqx6d6C4jxEWVZnRXYqyqrCVEjUkelWBs6j5XB2MEfs0m4qyJo6u5OiookDuTVQS9bFNuhBbtqXzZCg5hCY\/5E1J7oLc9Ca9biAIIKgKCYUHzH1qyxbUrm1MnY7r6\/zrqo52yVm5rFH2Bm0ag7F5V9avsXxrrSEHYO0VfTaj8TieQ2\/Wl1vGDTUTRTuuhJpAEYJYbMd6Wvicl143M1cOIKZjcVn8ZeZnLCI5a6mnYh3iLg0BOwk0sdgWRkOb0pfjuIMEZ1IBA1n0iKSW+JyAQsMNxyPeBSGfTOHMqpmYxGpql\/EyBoUTWHu8ccqV1iNCZnuO9UYPiiKdQSTzqWOj6nh+IeYEbNEe\/KjMRh0eSsBufQ1i+HcTRklmAyGRJ37UstcauPfhHIGaT3PT0p2Jo+i8PkFk2P8AL9mp4fhoztncnNt2PalPBsefiwxnbfY6Qfem32q2lwEuykSYykhjyKnmK58nTox\/+SxeH5SUBlBuOc9astYE8tqCwuIdict2SdfMInnsaknEtG\/vFJE6CR+FSaf9DUwTJOVxJ0IOulU5svNWkQTO1BJimyhjJEwf6ilt602csNtZHUdKVBY\/w1q4DJZAIMQ0yK8xN2VyG2ZJ3BH4VnM6zAZskTB0ZT27UN9qusylHY5TInpTCze2rGglX+orqyTcdund\/wDjXVIWHXFVwIBUjSoY\/DN8pIBPMb0VbxSsAQBrsa4iW11q9oNMot4ZSuUtDDeRv3r1rbLDAqT0In3B61K5d3zawYHWqrmHVcsE6zQJolhsIM0vmBI8sHy1RjGuIpQFozTmmR025GOfaiCzASrhh35V1zFK3lup9KaZLQofDoqhspImSRIza855VclrP5y6wQQJUeU9j170dicMhQIuxGs6z60Jh+HFFOU6TIA2qnsSJYYskEOIG2u3KYqviVv4lwLbdJYQpIOrkaCQoiTz7161i4B5LfxSJLeUZljtzFSs38pVzahgQw8oiR1GnOpWmPpgeI8PfyuqiQZOvMaHf2oFcXeViXBk65uYj05VvMQi5pLZs5JYFcsTqdRpSnFYdQ+XymOg6iRW8cmjJxFVvEEyIRmgRJIPbbnUDxDKYe24j3pnewCOR5NY5HpXjYRVEMG9jtR6QvIAeKICPnE67VY3Es58ise58te3sI8ZkdT6qNPXahbti\/HlKA9Np9zTtB5DWfykkx+Apbb4wiNlyyIjTagr3D77nzk+50orh3Dip8wBEQY3otE0DY698QwgIXWR1oQYQcm16UzfDlScqNHXl9aXPhXJliB6UAD3gynLmNVqx3q42Dm1n1POikwhjcelFoKCMJdQjXQ+kj8NqNOHDQ6aMOhEH3pdh7cHUaUZZwuV5R8s\/T3FSPo+wGLIdFGZWZlUz67\/ANaf8RsPbeDcIjYT5YYbjkKxVvFQVBOqnl+PpW0UveRQ6kSogjcgajU7RUTo0hZXhL9zpnE9M0+gGtHqpJLIArAebnppuKVWNfKxK5ToXTIY55WXeiGxpQ\/OMrfwawRsYb9ayNUPmxashU5dNTp5pGkmla8SAAysHEkfLEEcjzoYu4nPlIaST5GInmD80UVjsUjEOi2suhKCSIGmuX5SYoHZK9i7DHzqQxIGgkCesDTWmSpkEgIFGzGCfpWaxmJZyXWEUCJRiZE6ZgSdarwtwq+YPqQAYyJMcjoQTQCZpszf\/qn+0fyrqUf9wXhoEYgbec\/otdSodoJsbe9ENzrq6tTMV4tjnXX71Oruy+ldXUmAvw3P1q9\/nb0rq6kM9w\/z+1G2\/m+ldXUMRQzHPvRD\/L7iurqljQnxIj4caSpnv52pLxT\/AOQ+i\/k1dXVceksjb2q65tXV1N9BA8UBlHm0rq6gTIv8o9KqTeurqaJYbh96ExSDPsK6upksX3PmFX21HTl+tdXUIZEDzVdiflNdXUAinDoPi7D9gVvEc5E1O36V1dUSLiA8Q396psaqZ11G+vWurqgthGCc9T9a9vqJmNdda6uoGhbxDY+1e4Y+QetdXUwCFuHqfrXV1dSA\/9k=&quot;,&quot;following&quot;:false,&quot;bio&quot;:&quot;php developer&quot;,&quot;username&quot;:&quot;ujjwal&quot;},&quot;description&quot;:&quot;tester&quot;,&quot;title&quot;:&quot;tester&quot;,&quot;body&quot;:&quot;sjdjjdjjsjsjdjdj sjsjs jsjsj amamma snsnns nndndn snnshhsh&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;tester-n1cpqg&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T03:04:36.935Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T02:46:37.414Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;varan1&quot;},&quot;description&quot;:&quot;small white cat&quot;,&quot;title&quot;:&quot;cat&quot;,&quot;body&quot;:&quot;this very good story about my cat&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;cat-6jmlhu&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T02:46:37.414Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T02:04:39.394Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;test121q23&quot;},&quot;description&quot;:&quot;test article&quot;,&quot;title&quot;:&quot;test new article&quot;,&quot;body&quot;:&quot;123456&quot;,&quot;favoritesCount&quot;:0,&quot;slug&quot;:&quot;test-new-article-df0b1s&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T02:04:39.394Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;vue3&quot;],&quot;createdAt&quot;:&quot;2021-03-24T01:59:51.356Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:null,&quot;username&quot;:&quot;jiansir&quot;},&quot;description&quot;:&quot;vue3+vite&quot;,&quot;title&quot;:&quot;测试demo&quot;,&quot;body&quot;:&quot;### 这是markdown语法？\n`javascript\nconsole.log(&#39;hello world&#39;)\n`&quot;,&quot;favoritesCount&quot;:1,&quot;slug&quot;:&quot;demo-mph0b&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T01:59:51.356Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[&quot;automs&quot;,&quot;awesome&quot;,&quot;Vue&quot;,&quot;lorem-ipsum&quot;,&quot;mhndeveloper&quot;],&quot;createdAt&quot;:&quot;2021-03-24T01:25:22.371Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/static.productionready.io\/images\/smiley-cyrus.jpg&quot;,&quot;following&quot;:false,&quot;bio&quot;:&quot;I&#39;m nice developer &quot;,&quot;username&quot;:&quot;mhndeveloper&quot;},&quot;description&quot;:&quot;about the real story behind lorem ipsum &quot;,&quot;title&quot;:&quot;This Is not a simple article&quot;,&quot;body&quot;:&quot;Lorem ipsum dolor sit amet, *consectetur* adipisicing elit, sed do eiusmod\ntempor incididunt ut **labore et dolore magna aliqua**. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. ***Duis aute irure dolor*** in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur. ~~Excepteur sint occaecat~~ cupidatat non\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n## H2\n\nLorem ipsum dolor sit amet, *consectetur* adipisicing elit, sed do eiusmod\ntempor incididunt ut **labore et dolore magna aliqua**. Ut enim ad minim veniam,\nquis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo\nconsequat. \n\n---\n\n***Duis aute irure dolor*** in reprehenderit in voluptate velit esse\ncillum dolore eu fugiat nulla pariatur. ~~Excepteur sint occaecat~~ cupidatat non\nproident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\n### H3\n\nunordered list:\n\n* item-1\n  * sub-item-1\n  * sub-item-2\n- item-2\n  - sub-item-3\n  - sub-item-4\n+ item-3\n  + sub-item-5\n  + sub-item-6\n\n\nordered list:\n\n1. item-1\n   1. sub-item-1\n   2. sub-item-2\n2. item-2\n   1. sub-item-3\n   2. sub-item-4\n3. item-3\n\n#### Header4\n\nTable Header-1 | Table Header-2 | Table Header-3\n:--- | :---: | ---:\nTable Data-1 | Table Data-2 | Table Data-3\nTD-4 | Td-5 | TD-6\nTable Data-7 | Table Data-8 | Table Data-9\n\n##### Header5\n\nYou may also want some images right in here like ![GitHub Logo](https:\/\/cloud.githubusercontent.com\/assets\/5456665\/13322882\/e74f6626-dc00-11e5-921d-f6d024a01eaa.png \&quot;GitHub\&quot;) - you can do that but I would recommend you to use the component \&quot;image\&quot; and simply split your text.\n\n###### Header6\n\nLet us do some links - this for example: https:\/\/github.com\/MinhasKamal\/github-markdown-syntax is **NOT** a link but this: is [GitHub](https:\/\/github.com\/MinhasKamal\/github-markdown-syntax)\n\n&quot;,&quot;favoritesCount&quot;:2,&quot;slug&quot;:&quot;this-is-not-a-simple-article-equqq1&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T01:28:28.522Z&quot;,&quot;favorited&quot;:false},{&quot;tagList&quot;:[],&quot;createdAt&quot;:&quot;2021-03-24T01:04:31.332Z&quot;,&quot;author&quot;:{&quot;image&quot;:&quot;https:\/\/observatoriodocinema.uol.com.br\/wp-content\/uploads\/2019\/07\/neytiri_in_avatar_2-wide-do-we-really-need-avatar-2.jpeg&quot;,&quot;following&quot;:false,&quot;bio&quot;:&quot;Im am a junior php developer :)&quot;,&quot;username&quot;:&quot;himynameisigor&quot;},&quot;description&quot;:&quot;Its about me and my career&quot;,&quot;title&quot;:&quot;Once upon a time&quot;,&quot;body&quot;:&quot;Hi everyone! I am from Brasil :)&quot;,&quot;favoritesCount&quot;:2,&quot;slug&quot;:&quot;once-upon-a-time-ysq72s&quot;,&quot;updatedAt&quot;:&quot;2021-03-24T01:04:31.332Z&quot;,&quot;favorited&quot;:false}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.53">
+      <div class="step-ref passed">53</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 200</span>
+      </div>
+    </div>
+    <div class="time-cell passed">0</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.54">
+      <div class="step-ref passed">54</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>match response.articles[0].title == &#39;#string&#39;</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
+
+  
+
+</div>
+</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+

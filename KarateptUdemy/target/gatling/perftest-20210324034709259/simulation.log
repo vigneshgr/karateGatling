@@ -1,0 +1,22 @@
+RUN	performance.PerfTest	perftest	1616557629259	 	3.5.0
+USER	article creation and deletion	START	1616557629390
+USER	article creation and deletion	START	1616557629390
+USER	article creation and deletion	START	1616557629390
+USER	article creation and deletion	START	1616557629390
+USER	article creation and deletion	START	1616557629390
+REQUEST		POST /api/users/login	1616557631851	1616557632503	OK	 
+REQUEST		POST /api/articles	1616557633118	1616557633511	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616557638558	1616557638948	OK	 
+USER	article creation and deletion	END	1616557638964
+REQUEST		POST /api/articles	1616557633162	1616557633580	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616557638599	1616557639005	OK	 
+USER	article creation and deletion	END	1616557639009
+REQUEST		POST /api/articles	1616557633143	1616557633613	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616557638632	1616557639024	OK	 
+USER	article creation and deletion	END	1616557639033
+REQUEST		POST /api/articles	1616557633156	1616557633923	OK	 
+REQUEST		POST /api/articles	1616557633143	1616557633923	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616557638941	1616557639450	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616557638940	1616557639450	OK	 
+USER	article creation and deletion	END	1616557639453
+USER	article creation and deletion	END	1616557639453

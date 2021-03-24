@@ -1,0 +1,22 @@
+RUN	performance.PerfTest	perftest	1616557079817	 	3.5.0
+USER	article creation and deletion	START	1616557079927
+USER	article creation and deletion	START	1616557079927
+USER	article creation and deletion	START	1616557079927
+USER	article creation and deletion	START	1616557079927
+USER	article creation and deletion	START	1616557079927
+REQUEST		POST /api/users/login	1616557082397	1616557082996	OK	 
+REQUEST		POST /api/articles	1616557083660	1616557084026	OK	 
+REQUEST		DELETE /api/articles/mary-ankunding-xhoovf	1616557089056	1616557089555	OK	 
+USER	article creation and deletion	END	1616557089569
+REQUEST		POST /api/articles	1616557083703	1616557084098	OK	 
+REQUEST		DELETE /api/articles/vito-barton-9y7o3b	1616557089116	1616557089573	OK	 
+USER	article creation and deletion	END	1616557089575
+REQUEST		POST /api/articles	1616557083660	1616557084105	OK	 
+REQUEST		DELETE /api/articles/sharonda-oconner-gxzeab	1616557089115	1616557089596	OK	 
+USER	article creation and deletion	END	1616557089597
+REQUEST		POST /api/articles	1616557083668	1616557084087	OK	 
+REQUEST		DELETE /api/articles/ray-ohara-wo7lgp	1616557089104	1616557089758	OK	 
+USER	article creation and deletion	END	1616557089758
+REQUEST		POST /api/articles	1616557083701	1616557084194	OK	 
+REQUEST		DELETE /api/articles/jame-lueilwitz-gxox30	1616557089213	1616557089831	OK	 
+USER	article creation and deletion	END	1616557089830

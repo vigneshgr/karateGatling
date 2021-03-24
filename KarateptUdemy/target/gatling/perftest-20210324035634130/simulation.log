@@ -1,0 +1,606 @@
+RUN	performance.PerfTest	perftest	1616558194130	 	3.5.0
+USER	article creation and deletion	START	1616558194294
+REQUEST		POST /api/users/login	1616558196553	1616558197168	OK	 
+USER	article creation and deletion	START	1616558198258
+USER	article creation and deletion	START	1616558199273
+USER	article creation and deletion	START	1616558200256
+USER	article creation and deletion	START	1616558201279
+USER	article creation and deletion	START	1616558202256
+USER	article creation and deletion	START	1616558203251
+REQUEST		POST /api/articles	1616558197705	1616558198154	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558203196	1616558203715	OK	 
+USER	article creation and deletion	END	1616558203728
+USER	article creation and deletion	START	1616558204262
+REQUEST		POST /api/articles	1616558198467	1616558198817	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558203850	1616558204295	OK	 
+USER	article creation and deletion	END	1616558204297
+USER	article creation and deletion	START	1616558205256
+REQUEST		POST /api/articles	1616558199389	1616558199792	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558204807	1616558205321	OK	 
+USER	article creation and deletion	END	1616558205320
+USER	article creation and deletion	START	1616558206261
+REQUEST		POST /api/articles	1616558200375	1616558200815	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558205834	1616558206326	OK	 
+USER	article creation and deletion	END	1616558206324
+USER	article creation and deletion	START	1616558207247
+REQUEST		POST /api/articles	1616558201420	1616558201838	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558206853	1616558207297	OK	 
+USER	article creation and deletion	END	1616558207297
+USER	article creation and deletion	START	1616558208261
+REQUEST		POST /api/articles	1616558202344	1616558202860	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558207880	1616558208353	OK	 
+USER	article creation and deletion	END	1616558208352
+USER	article creation and deletion	START	1616558208758
+REQUEST		POST /api/articles	1616558203339	1616558203769	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558208792	1616558209210	OK	 
+USER	article creation and deletion	END	1616558209211
+USER	article creation and deletion	START	1616558209254
+USER	article creation and deletion	START	1616558209753
+REQUEST		POST /api/articles	1616558204393	1616558204796	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558209810	1616558210129	OK	 
+USER	article creation and deletion	END	1616558210135
+USER	article creation and deletion	START	1616558210253
+REQUEST		POST /api/articles	1616558205341	1616558205831	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558210852	1616558211257	OK	 
+USER	article creation and deletion	END	1616558211258
+USER	article creation and deletion	START	1616558211260
+USER	article creation and deletion	START	1616558211259
+USER	article creation and deletion	START	1616558211755
+USER	article creation and deletion	START	1616558212262
+REQUEST		POST /api/articles	1616558206320	1616558206753	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558211783	1616558212383	OK	 
+USER	article creation and deletion	END	1616558212383
+USER	article creation and deletion	START	1616558212755
+USER	article creation and deletion	START	1616558213263
+REQUEST		POST /api/articles	1616558207324	1616558207776	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558212796	1616558213310	OK	 
+REQUEST		POST /api/articles	1616558208349	1616558208799	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558213824	1616558214229	OK	 
+REQUEST		POST /api/articles	1616558208853	1616558209210	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558214222	1616558214738	OK	 
+REQUEST		POST /api/articles	1616558209376	1616558209810	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558214823	1616558215159	OK	 
+REQUEST		POST /api/articles	1616558209876	1616558210281	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558215290	1616558215604	OK	 
+USER	article creation and deletion	END	1616558213310
+USER	article creation and deletion	END	1616558214227
+USER	article creation and deletion	END	1616558214737
+USER	article creation and deletion	END	1616558215157
+USER	article creation and deletion	END	1616558215602
+USER	article creation and deletion	START	1616558215608
+USER	article creation and deletion	START	1616558215607
+USER	article creation and deletion	START	1616558215608
+USER	article creation and deletion	START	1616558215607
+USER	article creation and deletion	START	1616558215756
+USER	article creation and deletion	START	1616558216260
+REQUEST		POST /api/articles	1616558210311	1616558210849	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558215867	1616558216375	OK	 
+REQUEST		POST /api/articles	1616558211340	1616558211794	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558216809	1616558217201	OK	 
+USER	article creation and deletion	END	1616558216374
+USER	article creation and deletion	END	1616558217199
+REQUEST		POST /api/articles	1616558212432	1616558212804	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558217832	1616558218220	OK	 
+USER	article creation and deletion	END	1616558218219
+USER	article creation and deletion	START	1616558218222
+USER	article creation and deletion	START	1616558218223
+USER	article creation and deletion	START	1616558218222
+USER	article creation and deletion	START	1616558218257
+USER	article creation and deletion	START	1616558218761
+REQUEST		POST /api/articles	1616558213460	1616558213877	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558218892	1616558219244	OK	 
+USER	article creation and deletion	START	1616558219252
+USER	article creation and deletion	START	1616558219451
+USER	article creation and deletion	START	1616558219663
+REQUEST		POST /api/articles	1616558214312	1616558214739	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558219758	1616558220001	OK	 
+REQUEST		POST /api/articles	1616558214795	1616558215148	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558220155	1616558220475	OK	 
+REQUEST		POST /api/articles	1616558215222	1616558215558	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558220584	1616558220883	OK	 
+REQUEST		POST /api/articles	1616558215675	1616558216000	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558221017	1616558221328	OK	 
+REQUEST		POST /api/articles	1616558216418	1616558216786	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558221794	1616558222117	OK	 
+REQUEST		POST /api/articles	1616558216880	1616558217230	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558222251	1616558222554	OK	 
+USER	article creation and deletion	END	1616558219243
+USER	article creation and deletion	END	1616558220000
+USER	article creation and deletion	END	1616558220475
+USER	article creation and deletion	END	1616558220883
+USER	article creation and deletion	END	1616558221328
+USER	article creation and deletion	START	1616558222556
+USER	article creation and deletion	END	1616558222116
+USER	article creation and deletion	END	1616558222553
+USER	article creation and deletion	START	1616558222557
+USER	article creation and deletion	START	1616558222555
+USER	article creation and deletion	START	1616558222556
+USER	article creation and deletion	START	1616558222556
+USER	article creation and deletion	START	1616558222557
+USER	article creation and deletion	START	1616558222555
+USER	article creation and deletion	START	1616558222557
+USER	article creation and deletion	START	1616558222562
+USER	article creation and deletion	START	1616558222559
+USER	article creation and deletion	START	1616558222559
+USER	article creation and deletion	START	1616558222555
+USER	article creation and deletion	START	1616558222556
+USER	article creation and deletion	START	1616558222557
+USER	article creation and deletion	START	1616558222559
+USER	article creation and deletion	START	1616558222566
+USER	article creation and deletion	START	1616558222566
+USER	article creation and deletion	START	1616558222569
+USER	article creation and deletion	START	1616558222557
+USER	article creation and deletion	START	1616558222559
+USER	article creation and deletion	START	1616558222568
+USER	article creation and deletion	START	1616558222660
+USER	article creation and deletion	START	1616558222758
+USER	article creation and deletion	START	1616558222855
+REQUEST		POST /api/articles	1616558217255	1616558217607	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558222616	1616558222932	OK	 
+USER	article creation and deletion	START	1616558222955
+USER	article creation and deletion	START	1616558223057
+USER	article creation and deletion	START	1616558223156
+USER	article creation and deletion	START	1616558223255
+REQUEST		POST /api/articles	1616558217693	1616558217951	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558222961	1616558223340	OK	 
+USER	article creation and deletion	START	1616558223347
+USER	article creation and deletion	START	1616558223427
+USER	article creation and deletion	START	1616558223511
+REQUEST		POST /api/articles	1616558218350	1616558218835	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558223849	1616558224333	OK	 
+REQUEST		POST /api/articles	1616558218951	1616558219312	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558224328	1616558224672	OK	 
+REQUEST		POST /api/articles	1616558219367	1616558219764	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558224782	1616558225091	OK	 
+REQUEST		POST /api/articles	1616558220141	1616558220485	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558225501	1616558225964	OK	 
+REQUEST		POST /api/articles	1616558220593	1616558220949	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558225960	1616558226195	OK	 
+REQUEST		POST /api/articles	1616558221041	1616558221293	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558226308	1616558226828	OK	 
+REQUEST		POST /api/articles	1616558221442	1616558221801	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558226819	1616558227236	OK	 
+REQUEST		POST /api/articles	1616558222180	1616558222522	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558227543	1616558227971	OK	 
+REQUEST		POST /api/articles	1616558222622	1616558222954	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558227962	1616558228359	OK	 
+REQUEST		POST /api/articles	1616558223002	1616558223342	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558228362	1616558228764	OK	 
+REQUEST		POST /api/articles	1616558223397	1616558223752	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558228754	1616558229279	OK	 
+REQUEST		POST /api/articles	1616558223805	1616558224334	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558229343	1616558229679	OK	 
+REQUEST		POST /api/articles	1616558224398	1616558224744	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558229759	1616558230100	OK	 
+REQUEST		POST /api/articles	1616558224813	1616558225153	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558230167	1616558230388	OK	 
+REQUEST		POST /api/articles	1616558225170	1616558225502	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558230510	1616558230919	OK	 
+USER	article creation and deletion	END	1616558222930
+USER	article creation and deletion	END	1616558223339
+USER	article creation and deletion	END	1616558224331
+USER	article creation and deletion	END	1616558224671
+USER	article creation and deletion	END	1616558225090
+USER	article creation and deletion	END	1616558225961
+USER	article creation and deletion	END	1616558226194
+USER	article creation and deletion	END	1616558226828
+USER	article creation and deletion	END	1616558227234
+USER	article creation and deletion	END	1616558227971
+USER	article creation and deletion	END	1616558228358
+USER	article creation and deletion	END	1616558228763
+USER	article creation and deletion	END	1616558229279
+USER	article creation and deletion	END	1616558229677
+USER	article creation and deletion	START	1616558230923
+USER	article creation and deletion	START	1616558230926
+USER	article creation and deletion	START	1616558230926
+USER	article creation and deletion	START	1616558230927
+USER	article creation and deletion	START	1616558230923
+USER	article creation and deletion	START	1616558230929
+USER	article creation and deletion	START	1616558230925
+USER	article creation and deletion	START	1616558230929
+USER	article creation and deletion	START	1616558230924
+USER	article creation and deletion	START	1616558230925
+USER	article creation and deletion	START	1616558230953
+USER	article creation and deletion	START	1616558230939
+USER	article creation and deletion	START	1616558230955
+USER	article creation and deletion	END	1616558230099
+USER	article creation and deletion	END	1616558230386
+USER	article creation and deletion	END	1616558230919
+USER	article creation and deletion	START	1616558230953
+USER	article creation and deletion	START	1616558230927
+USER	article creation and deletion	START	1616558230961
+USER	article creation and deletion	START	1616558230964
+USER	article creation and deletion	START	1616558230966
+USER	article creation and deletion	START	1616558230938
+USER	article creation and deletion	START	1616558230966
+USER	article creation and deletion	START	1616558230959
+USER	article creation and deletion	START	1616558230992
+USER	article creation and deletion	START	1616558230992
+USER	article creation and deletion	START	1616558230965
+USER	article creation and deletion	START	1616558230994
+USER	article creation and deletion	START	1616558230998
+USER	article creation and deletion	START	1616558230998
+USER	article creation and deletion	START	1616558231005
+USER	article creation and deletion	START	1616558230993
+USER	article creation and deletion	START	1616558231005
+USER	article creation and deletion	START	1616558231012
+USER	article creation and deletion	START	1616558231008
+USER	article creation and deletion	START	1616558231004
+USER	article creation and deletion	START	1616558231019
+USER	article creation and deletion	START	1616558231021
+USER	article creation and deletion	START	1616558231021
+USER	article creation and deletion	START	1616558230958
+USER	article creation and deletion	START	1616558230927
+USER	article creation and deletion	START	1616558231027
+USER	article creation and deletion	START	1616558231012
+USER	article creation and deletion	START	1616558231023
+USER	article creation and deletion	START	1616558231019
+USER	article creation and deletion	START	1616558231034
+USER	article creation and deletion	START	1616558230932
+USER	article creation and deletion	START	1616558231040
+USER	article creation and deletion	START	1616558230925
+USER	article creation and deletion	START	1616558231033
+USER	article creation and deletion	START	1616558230929
+USER	article creation and deletion	START	1616558231043
+USER	article creation and deletion	START	1616558230929
+USER	article creation and deletion	START	1616558231043
+USER	article creation and deletion	START	1616558231048
+USER	article creation and deletion	START	1616558231051
+USER	article creation and deletion	START	1616558231056
+USER	article creation and deletion	START	1616558231056
+USER	article creation and deletion	START	1616558231057
+USER	article creation and deletion	START	1616558231062
+USER	article creation and deletion	START	1616558231061
+USER	article creation and deletion	START	1616558231064
+USER	article creation and deletion	START	1616558231066
+USER	article creation and deletion	START	1616558231065
+USER	article creation and deletion	START	1616558230955
+USER	article creation and deletion	START	1616558231070
+USER	article creation and deletion	START	1616558231070
+USER	article creation and deletion	START	1616558231071
+USER	article creation and deletion	START	1616558231068
+USER	article creation and deletion	START	1616558231059
+USER	article creation and deletion	START	1616558231077
+USER	article creation and deletion	START	1616558230992
+USER	article creation and deletion	START	1616558231077
+USER	article creation and deletion	START	1616558231078
+USER	article creation and deletion	START	1616558231081
+USER	article creation and deletion	START	1616558231081
+USER	article creation and deletion	START	1616558231085
+REQUEST		POST /api/articles	1616558226019	1616558226381	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558231395	1616558231740	OK	 
+REQUEST		POST /api/articles	1616558226315	1616558226829	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558231849	1616558232253	OK	 
+REQUEST		POST /api/articles	1616558226898	1616558227239	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558232246	1616558232653	OK	 
+REQUEST		POST /api/articles	1616558227289	1616558227630	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558232644	1616558233171	OK	 
+REQUEST		POST /api/articles	1616558228076	1616558228440	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558233448	1616558233785	OK	 
+REQUEST		POST /api/articles	1616558228467	1616558228802	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558233817	1616558234196	OK	 
+REQUEST		POST /api/articles	1616558228827	1616558229281	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558234295	1616558234706	OK	 
+REQUEST		POST /api/articles	1616558229330	1616558229682	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558234695	1616558235118	OK	 
+REQUEST		POST /api/articles	1616558229737	1616558230099	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558235108	1616558235474	OK	 
+REQUEST		POST /api/articles	1616558230229	1616558230563	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558235581	1616558235938	OK	 
+REQUEST		POST /api/articles	1616558230439	1616558230919	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558235932	1616558236175	OK	 
+REQUEST		POST /api/articles	1616558231106	1616558231424	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558236440	1616558236858	OK	 
+REQUEST		POST /api/articles	1616558231880	1616558232257	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558237267	1616558237676	OK	 
+REQUEST		POST /api/articles	1616558232379	1616558232733	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558237753	1616558238087	OK	 
+REQUEST		POST /api/articles	1616558232782	1616558233171	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558238183	1616558238495	OK	 
+REQUEST		POST /api/articles	1616558233305	1616558233572	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558238590	1616558239110	OK	 
+REQUEST		POST /api/articles	1616558233849	1616558234197	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558239205	1616558239730	OK	 
+REQUEST		POST /api/articles	1616558234261	1616558234705	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558239722	1616558240031	OK	 
+REQUEST		POST /api/articles	1616558234822	1616558235164	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558240172	1616558240510	OK	 
+REQUEST		POST /api/articles	1616558235248	1616558235590	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558240614	1616558240954	OK	 
+REQUEST		POST /api/articles	1616558235634	1616558235976	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558240986	1616558241372	OK	 
+REQUEST		POST /api/articles	1616558236005	1616558236333	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558241340	1616558241580	OK	 
+REQUEST		POST /api/articles	1616558236284	1616558236653	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558241672	1616558241918	OK	 
+REQUEST		POST /api/articles	1616558236944	1616558237283	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558242287	1616558242797	OK	 
+REQUEST		POST /api/articles	1616558237721	1616558238089	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558243094	1616558243522	OK	 
+REQUEST		POST /api/articles	1616558238153	1616558238498	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558243513	1616558244025	OK	 
+REQUEST		POST /api/articles	1616558238615	1616558239113	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558244120	1616558244471	OK	 
+REQUEST		POST /api/articles	1616558239164	1616558239729	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558244739	1616558244999	OK	 
+REQUEST		POST /api/articles	1616558239780	1616558240132	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558245139	1616558245523	OK	 
+REQUEST		POST /api/articles	1616558240101	1616558240507	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558245513	1616558245874	OK	 
+REQUEST		POST /api/articles	1616558240637	1616558240954	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558245974	1616558246287	OK	 
+REQUEST		POST /api/articles	1616558241036	1616558241421	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558246431	1616558246794	OK	 
+REQUEST		POST /api/articles	1616558241453	1616558241777	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558246786	1616558247100	OK	 
+REQUEST		POST /api/articles	1616558241617	1616558241951	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558246973	1616558247300	OK	 
+REQUEST		POST /api/articles	1616558241970	1616558242360	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558247374	1616558247613	OK	 
+REQUEST		POST /api/articles	1616558242832	1616558243107	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558248126	1616558248531	OK	 
+REQUEST		POST /api/articles	1616558243563	1616558244025	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558249044	1616558249350	OK	 
+REQUEST		POST /api/articles	1616558244068	1616558244400	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558249414	1616558249639	OK	 
+REQUEST		POST /api/articles	1616558244543	1616558244876	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558249890	1616558250372	OK	 
+REQUEST		POST /api/articles	1616558245063	1616558245356	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558250366	1616558250740	OK	 
+REQUEST		POST /api/articles	1616558245612	1616558245948	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558250965	1616558251362	OK	 
+REQUEST		POST /api/articles	1616558246002	1616558246341	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558251352	1616558251806	OK	 
+REQUEST		POST /api/articles	1616558246435	1616558246795	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558251798	1616558252216	OK	 
+REQUEST		POST /api/articles	1616558246860	1616558247202	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558252211	1616558252522	OK	 
+REQUEST		POST /api/articles	1616558247156	1616558247481	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558252492	1616558252810	OK	 
+REQUEST		POST /api/articles	1616558247430	1616558247765	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558252774	1616558253029	OK	 
+REQUEST		POST /api/articles	1616558247740	1616558248122	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558253138	1616558253365	OK	 
+REQUEST		POST /api/articles	1616558248580	1616558248941	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558253955	1616558254391	OK	 
+REQUEST		POST /api/articles	1616558249015	1616558249370	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558254384	1616558254793	OK	 
+REQUEST		POST /api/articles	1616558249455	1616558249708	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558254722	1616558255295	OK	 
+REQUEST		POST /api/articles	1616558249779	1616558250374	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558255390	1616558255792	OK	 
+REQUEST		POST /api/articles	1616558250431	1616558250737	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558255755	1616558256145	OK	 
+REQUEST		POST /api/articles	1616558250824	1616558251064	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558256079	1616558256517	OK	 
+REQUEST		POST /api/articles	1616558251415	1616558251807	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558256821	1616558257133	OK	 
+REQUEST		POST /api/articles	1616558251855	1616558252235	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558257244	1616558257549	OK	 
+REQUEST		POST /api/articles	1616558252272	1616558252608	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558257621	1616558257991	OK	 
+REQUEST		POST /api/articles	1616558252589	1616558252939	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558257947	1616558258308	OK	 
+REQUEST		POST /api/articles	1616558252924	1616558253171	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558258178	1616558258463	OK	 
+REQUEST		POST /api/articles	1616558253067	1616558253305	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558258323	1616558258645	OK	 
+USER	article creation and deletion	END	1616558231738
+USER	article creation and deletion	END	1616558232253
+USER	article creation and deletion	END	1616558232652
+USER	article creation and deletion	END	1616558233169
+USER	article creation and deletion	END	1616558233784
+USER	article creation and deletion	END	1616558234195
+USER	article creation and deletion	END	1616558234706
+USER	article creation and deletion	END	1616558235118
+USER	article creation and deletion	END	1616558235478
+USER	article creation and deletion	END	1616558235936
+USER	article creation and deletion	END	1616558236174
+USER	article creation and deletion	END	1616558236857
+USER	article creation and deletion	END	1616558237675
+USER	article creation and deletion	END	1616558238086
+USER	article creation and deletion	END	1616558238494
+USER	article creation and deletion	END	1616558239109
+USER	article creation and deletion	END	1616558239728
+USER	article creation and deletion	END	1616558240030
+USER	article creation and deletion	END	1616558240509
+USER	article creation and deletion	END	1616558240953
+USER	article creation and deletion	END	1616558241371
+USER	article creation and deletion	END	1616558241577
+USER	article creation and deletion	END	1616558241916
+USER	article creation and deletion	END	1616558242795
+USER	article creation and deletion	END	1616558243519
+USER	article creation and deletion	END	1616558244024
+USER	article creation and deletion	END	1616558244468
+USER	article creation and deletion	END	1616558244997
+USER	article creation and deletion	END	1616558245522
+USER	article creation and deletion	END	1616558245873
+USER	article creation and deletion	END	1616558246286
+USER	article creation and deletion	END	1616558246792
+USER	article creation and deletion	END	1616558247098
+USER	article creation and deletion	START	1616558258647
+USER	article creation and deletion	START	1616558258648
+USER	article creation and deletion	START	1616558258648
+USER	article creation and deletion	START	1616558258646
+USER	article creation and deletion	END	1616558247298
+USER	article creation and deletion	START	1616558258650
+USER	article creation and deletion	END	1616558247612
+USER	article creation and deletion	START	1616558258647
+USER	article creation and deletion	END	1616558248529
+USER	article creation and deletion	END	1616558249348
+USER	article creation and deletion	START	1616558258651
+USER	article creation and deletion	END	1616558249638
+USER	article creation and deletion	END	1616558250370
+USER	article creation and deletion	END	1616558250739
+USER	article creation and deletion	END	1616558251361
+USER	article creation and deletion	END	1616558251803
+USER	article creation and deletion	START	1616558258650
+USER	article creation and deletion	END	1616558252214
+USER	article creation and deletion	END	1616558252521
+USER	article creation and deletion	END	1616558252809
+USER	article creation and deletion	END	1616558253027
+USER	article creation and deletion	END	1616558253367
+USER	article creation and deletion	END	1616558254390
+USER	article creation and deletion	END	1616558254791
+USER	article creation and deletion	END	1616558255294
+USER	article creation and deletion	END	1616558255791
+USER	article creation and deletion	END	1616558256145
+USER	article creation and deletion	END	1616558256516
+USER	article creation and deletion	END	1616558257131
+USER	article creation and deletion	END	1616558257547
+USER	article creation and deletion	END	1616558257989
+USER	article creation and deletion	END	1616558258307
+USER	article creation and deletion	END	1616558258461
+USER	article creation and deletion	END	1616558258643
+USER	article creation and deletion	START	1616558258650
+USER	article creation and deletion	START	1616558258646
+REQUEST		POST /api/articles	1616558253406	1616558253961	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558258968	1616558259270	OK	 
+REQUEST		POST /api/articles	1616558254442	1616558254793	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558259805	1616558260205	OK	 
+REQUEST		POST /api/articles	1616558254834	1616558255295	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558260306	1616558260615	OK	 
+REQUEST		POST /api/articles	1616558255334	1616558255605	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558260609	1616558260874	OK	 
+REQUEST		POST /api/articles	1616558255853	1616558256274	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558261280	1616558261514	OK	 
+REQUEST		POST /api/articles	1616558256184	1616558256584	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558261600	1616558261923	OK	 
+REQUEST		POST /api/articles	1616558256593	1616558256889	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558261903	1616558262122	OK	 
+REQUEST		POST /api/articles	1616558257218	1616558257542	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558262546	1616558262867	OK	 
+USER	article creation and deletion	END	1616558259267
+USER	article creation and deletion	END	1616558260204
+USER	article creation and deletion	END	1616558260613
+USER	article creation and deletion	END	1616558260871
+USER	article creation and deletion	END	1616558261513
+USER	article creation and deletion	END	1616558261920
+USER	article creation and deletion	END	1616558262121
+USER	article creation and deletion	END	1616558262865
+REQUEST		POST /api/articles	1616558257678	1616558257987	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558262992	1616558263276	OK	 
+USER	article creation and deletion	END	1616558263274
+REQUEST		POST /api/articles	1616558258053	1616558258452	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558263462	1616558263824	OK	 
+USER	article creation and deletion	END	1616558263824
+REQUEST		POST /api/articles	1616558258447	1616558258804	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558263815	1616558264072	OK	 
+REQUEST		POST /api/articles	1616558258503	1616558258848	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558263862	1616558264127	OK	 
+REQUEST		POST /api/articles	1616558258817	1616558259181	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558264210	1616558264506	OK	 
+REQUEST		POST /api/articles	1616558259318	1616558259796	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558264809	1616558265130	OK	 
+REQUEST		POST /api/articles	1616558259857	1616558260206	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558265216	1616558265641	OK	 
+USER	article creation and deletion	END	1616558264071
+USER	article creation and deletion	END	1616558264127
+USER	article creation and deletion	END	1616558264505
+USER	article creation and deletion	END	1616558265129
+USER	article creation and deletion	END	1616558265641
+REQUEST		POST /api/articles	1616558260245	1616558260615	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558265634	1616558265994	OK	 
+USER	article creation and deletion	END	1616558265992
+REQUEST		POST /api/articles	1616558260722	1616558261080	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558266090	1616558266415	OK	 
+USER	article creation and deletion	END	1616558266414
+REQUEST		POST /api/articles	1616558260919	1616558261279	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558266294	1616558266522	OK	 
+USER	article creation and deletion	END	1616558266520
+REQUEST		POST /api/articles	1616558261583	1616558261843	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558266864	1616558267168	OK	 
+REQUEST		POST /api/articles	1616558261960	1616558262208	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558267217	1616558267569	OK	 
+REQUEST		POST /api/articles	1616558262198	1616558262554	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558267562	1616558267810	OK	 
+REQUEST		POST /api/articles	1616558262949	1616558263283	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558268295	1616558268595	OK	 
+REQUEST		POST /api/articles	1616558263333	1616558263578	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558268590	1616558268887	OK	 
+REQUEST		POST /api/articles	1616558263954	1616558264304	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558269334	1616558269647	OK	 
+REQUEST		POST /api/articles	1616558264218	1616558264506	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558269512	1616558269882	OK	 
+REQUEST		POST /api/articles	1616558264210	1616558264532	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558269537	1616558269885	OK	 
+REQUEST		POST /api/articles	1616558264666	1616558265120	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558270129	1616558270447	OK	 
+REQUEST		POST /api/articles	1616558265219	1616558265641	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558270659	1616558270984	OK	 
+REQUEST		POST /api/articles	1616558265765	1616558266066	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558271074	1616558271468	OK	 
+REQUEST		POST /api/articles	1616558266102	1616558266453	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558271470	1616558271718	OK	 
+REQUEST		POST /api/articles	1616558266488	1616558266871	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558271887	1616558272123	OK	 
+REQUEST		POST /api/articles	1616558266559	1616558266903	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558271910	1616558272237	OK	 
+USER	article creation and deletion	END	1616558267166
+USER	article creation and deletion	END	1616558267570
+USER	article creation and deletion	END	1616558267807
+USER	article creation and deletion	END	1616558268593
+USER	article creation and deletion	END	1616558268885
+USER	article creation and deletion	END	1616558269646
+USER	article creation and deletion	END	1616558269880
+USER	article creation and deletion	END	1616558269884
+USER	article creation and deletion	END	1616558270446
+USER	article creation and deletion	END	1616558270983
+USER	article creation and deletion	END	1616558271467
+USER	article creation and deletion	END	1616558271716
+USER	article creation and deletion	END	1616558272121
+USER	article creation and deletion	END	1616558272234
+REQUEST		POST /api/articles	1616558267246	1616558267602	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558272618	1616558272902	OK	 
+USER	article creation and deletion	END	1616558272900
+REQUEST		POST /api/articles	1616558267854	1616558268172	OK	 
+REQUEST		POST /api/articles	1616558267687	1616558268089	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558273184	1616558273616	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558273104	1616558273616	OK	 
+USER	article creation and deletion	END	1616558273615
+USER	article creation and deletion	END	1616558273616
+REQUEST		POST /api/articles	1616558268232	1616558268597	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558273607	1616558273926	OK	 
+USER	article creation and deletion	END	1616558273926
+REQUEST		POST /api/articles	1616558268657	1616558269016	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558274026	1616558274356	OK	 
+USER	article creation and deletion	END	1616558274354
+REQUEST		POST /api/articles	1616558268952	1616558269215	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558274222	1616558274540	OK	 
+USER	article creation and deletion	END	1616558274539
+REQUEST		POST /api/articles	1616558269361	1616558269688	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558274705	1616558274992	OK	 
+USER	article creation and deletion	END	1616558274991
+REQUEST		POST /api/articles	1616558269713	1616558269952	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558274981	1616558275298	OK	 
+USER	article creation and deletion	END	1616558275297
+REQUEST		POST /api/articles	1616558270012	1616558270258	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558275268	1616558275597	OK	 
+USER	article creation and deletion	END	1616558275596
+REQUEST		POST /api/articles	1616558270017	1616558270445	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558275458	1616558275975	OK	 
+USER	article creation and deletion	END	1616558275974
+REQUEST		POST /api/articles	1616558270578	1616558270958	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558275965	1616558276194	OK	 
+USER	article creation and deletion	END	1616558276193
+REQUEST		POST /api/articles	1616558271075	1616558271469	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558276476	1616558276960	OK	 
+USER	article creation and deletion	END	1616558276959
+REQUEST		POST /api/articles	1616558271595	1616558271941	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558276951	1616558277260	OK	 
+USER	article creation and deletion	END	1616558277266
+REQUEST		POST /api/articles	1616558271827	1616558272085	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558277092	1616558277407	OK	 
+USER	article creation and deletion	END	1616558277406
+REQUEST		POST /api/articles	1616558272162	1616558272437	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558277456	1616558277683	OK	 
+USER	article creation and deletion	END	1616558277682
+REQUEST		POST /api/articles	1616558272291	1616558272643	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558277648	1616558277920	OK	 
+USER	article creation and deletion	END	1616558277918
+REQUEST		POST /api/articles	1616558273031	1616558273277	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558278289	1616558278559	OK	 
+USER	article creation and deletion	END	1616558278564
+REQUEST		POST /api/articles	1616558273670	1616558274050	OK	 
+REQUEST		DELETE /api/articles/{articleId}	1616558279055	1616558279455	OK	 
+USER	article creation and deletion	END	1616558279454

@@ -1,0 +1,6 @@
+RUN	performance.PerfTest	perftest	1616556584893	 	3.5.0
+USER	article creation and deletion	START	1616556585026
+REQUEST		POST /api/users/login	1616556586995	1616556587648	OK	 
+REQUEST		POST /api/articles	1616556587980	1616556588323	OK	 
+REQUEST		DELETE /api/articles/jetta-trantow-6tid7v	1616556593362	1616556593730	OK	 
+USER	article creation and deletion	END	1616556593747
